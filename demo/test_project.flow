@@ -1,0 +1,9 @@
+升级背景：系统需要从 v1.0.0 升级到 v2.0.0，以修复安全漏洞并优化性能。
+
+升级步骤：
+1. 停止相关服务：systemctl stop webserver
+2. 备份数据目录：cp -r /var/www/html /backup/html_backup
+3. 安装升级包：dpkg -i /updates/webserver_v2.0.0.deb
+4. 检查版本号：webserver --version
+5. 启动服务：systemctl start webserver
+6. 检查服务状态：systemctl status webserver
