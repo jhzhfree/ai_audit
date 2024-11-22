@@ -5,3 +5,9 @@ langchain-openai
 langchain-core
 langchain-community
 langchain_ollama
+scikit-learn
+matplotlib
+seaborn
+scikit-learn
+matplotlib
+cchardet

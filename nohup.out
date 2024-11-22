@@ -1,0 +1,833 @@
+[I 2024-11-21 14:50:18.281 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-11-21 14:50:18.283 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-11-21 14:50:18.286 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-11-21 14:50:18.391 ServerApp] notebook_shim | extension was successfully linked.
+[W 2024-11-21 14:50:18.400 ServerApp] WARNING: The Jupyter server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 2024-11-21 14:50:18.400 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-11-21 14:50:18.401 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-11-21 14:50:18.402 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-11-21 14:50:18.402 LabApp] JupyterLab extension loaded from /data/conda/envs/logs/lib/python3.10/site-packages/jupyterlab
+[I 2024-11-21 14:50:18.402 LabApp] JupyterLab application directory is /data/conda/envs/logs/share/jupyter/lab
+[I 2024-11-21 14:50:18.403 LabApp] Extension Manager is 'pypi'.
+[I 2024-11-21 14:50:18.444 LabApp] Extensions will be fetched using proxy, proxy host and port: ('127.0.0.1', '7890')
+[I 2024-11-21 14:50:18.446 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-11-21 14:50:18.447 ServerApp] Serving notebooks from local directory: /data/pub/ai_audit
+[I 2024-11-21 14:50:18.447 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2024-11-21 14:50:18.447 ServerApp] http://localhost:8000/lab?token=7c1d96c985398cc68e6443c4dcdf411d91ef322dbdd1e7ec
+[I 2024-11-21 14:50:18.447 ServerApp]     http://127.0.0.1:8000/lab?token=7c1d96c985398cc68e6443c4dcdf411d91ef322dbdd1e7ec
+[I 2024-11-21 14:50:18.447 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-11-21 14:50:18.449 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///root/.local/share/jupyter/runtime/jpserver-956232-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8000/lab?token=7c1d96c985398cc68e6443c4dcdf411d91ef322dbdd1e7ec
+        http://127.0.0.1:8000/lab?token=7c1d96c985398cc68e6443c4dcdf411d91ef322dbdd1e7ec
+[I 2024-11-21 14:50:18.459 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2024-11-21 14:50:49.843 ServerApp] 302 GET / (@11.0.0.1) 0.38ms
+[I 2024-11-21 14:50:49.852 LabApp] 302 GET /lab? (@11.0.0.1) 0.50ms
+[I 2024-11-21 14:51:19.837 ServerApp] 302 GET / (@127.0.0.1) 0.30ms
+[I 2024-11-21 14:51:19.845 LabApp] 302 GET /lab? (@127.0.0.1) 0.31ms
+[W 2024-11-21 14:51:45.638 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-11-21 14:51:45.939 ServerApp] 404 GET /api/contents/ai_audit/jupyter?content=0&hash=0&1732200705739 (a1a0d4dce5954401a027a88a6a404cbd@11.0.0.1) 0.97ms referer=http://172.16.3.199:8000/lab
+[W 2024-11-21 14:51:45.939 ServerApp] 404 GET /api/contents/ai_audit/jupyter?content=0&hash=0&1732200705739 (11.0.0.1): No such file or directory: ai_audit/jupyter
+[W 2024-11-21 14:51:45.940 ServerApp] 404 GET /api/contents/ai_audit/jupyter/flow_approval.ipynb?content=0&hash=0&1732200705739 (a1a0d4dce5954401a027a88a6a404cbd@11.0.0.1) 0.49ms referer=http://172.16.3.199:8000/lab
+[W 2024-11-21 14:51:45.940 ServerApp] 404 GET /api/contents/ai_audit/jupyter/flow_approval.ipynb?content=0&hash=0&1732200705739 (11.0.0.1): No such file or directory: ai_audit/jupyter/flow_approval.ipynb
+[W 2024-11-21 14:51:45.940 ServerApp] 404 GET /api/contents/ai_audit/jupyter/flow_approval.ipynb?content=0&hash=0&1732200705740 (a1a0d4dce5954401a027a88a6a404cbd@11.0.0.1) 0.74ms referer=http://172.16.3.199:8000/lab
+[W 2024-11-21 14:51:45.940 ServerApp] 404 GET /api/contents/ai_audit/jupyter/flow_approval.ipynb?content=0&hash=0&1732200705740 (11.0.0.1): No such file or directory: ai_audit/jupyter/flow_approval.ipynb
+[W 2024-11-21 14:51:47.071 ServerApp] 404 GET /api/contents/ai_audit/jupyter?1732200706870 (a1a0d4dce5954401a027a88a6a404cbd@11.0.0.1) 0.49ms referer=http://172.16.3.199:8000/lab
+[W 2024-11-21 14:51:47.071 ServerApp] 404 GET /api/contents/ai_audit/jupyter?1732200706870 (11.0.0.1): No such file or directory: ai_audit/jupyter
+[I 2024-11-21 14:51:51.907 ServerApp] Kernel started: 47ccae86-3fbe-4762-ab1b-d59ccadfa36f
+[I 2024-11-21 14:51:52.193 ServerApp] Connecting to kernel 47ccae86-3fbe-4762-ab1b-d59ccadfa36f.
+[I 2024-11-21 14:51:52.193 ServerApp] Connecting to kernel 47ccae86-3fbe-4762-ab1b-d59ccadfa36f.
+[I 2024-11-21 14:51:52.194 ServerApp] Connecting to kernel 47ccae86-3fbe-4762-ab1b-d59ccadfa36f.
+[I 2024-11-21 14:52:20.198 ServerApp] Creating new notebook in /jupyter
+[I 2024-11-21 14:52:20.455 ServerApp] Kernel started: 499987b4-6e6d-4e56-a792-3a0947c71958
+[I 2024-11-21 14:52:20.745 ServerApp] Connecting to kernel 499987b4-6e6d-4e56-a792-3a0947c71958.
+[I 2024-11-21 14:53:31.505 ServerApp] Saving file at /jupyter/Untitled.ipynb
+[E 2024-11-21 14:53:31.597 ServerApp] Uncaught exception POST /api/contents/jupyter/Untitled.ipynb/checkpoints?1732200811396 (11.0.0.1)
+    HTTPServerRequest(protocol='http', host='172.16.3.199:8000', method='POST', uri='/api/contents/jupyter/Untitled.ipynb/checkpoints?1732200811396', version='HTTP/1.1', remote_ip='11.0.0.1')
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 357, in post
+        checkpoint = await ensure_async(cm.create_checkpoint(path))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1085, in create_checkpoint
+        return await self.checkpoints.create_checkpoint(self, path)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 141, in create_checkpoint
+        return await self.checkpoint_model(checkpoint_id, dest_path)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 151, in checkpoint_model
+        stats = await run_sync(os.stat, os_path)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2441, in run_sync_in_worker_thread
+        return await future
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 943, in run
+        result = context.run(func, *args)
+    FileNotFoundError: [Errno 2] No such file or directory: '/data/pub/ai_audit/jupyter/.ipynb_checkpoints/Untitled-checkpoint.ipynb'
+[W 2024-11-21 14:53:31.598 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 357, in post
+        checkpoint = await ensure_async(cm.create_checkpoint(path))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1085, in create_checkpoint
+        return await self.checkpoints.create_checkpoint(self, path)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 141, in create_checkpoint
+        return await self.checkpoint_model(checkpoint_id, dest_path)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 151, in checkpoint_model
+        stats = await run_sync(os.stat, os_path)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2441, in run_sync_in_worker_thread
+        return await future
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 943, in run
+        result = context.run(func, *args)
+    FileNotFoundError: [Errno 2] No such file or directory: '/data/pub/ai_audit/jupyter/.ipynb_checkpoints/Untitled-checkpoint.ipynb'
+[E 2024-11-21 14:53:31.599 ServerApp] {
+      "Host": "172.16.3.199:8000",
+      "Accept": "*/*",
+      "Referer": "http://172.16.3.199:8000/lab/tree/jupyter/Untitled.ipynb",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+    }
+[E 2024-11-21 14:53:31.599 ServerApp] 500 POST /api/contents/jupyter/Untitled.ipynb/checkpoints?1732200811396 (a1a0d4dce5954401a027a88a6a404cbd@11.0.0.1) 3.89ms referer=http://172.16.3.199:8000/lab/tree/jupyter/Untitled.ipynb
+[I 2024-11-21 14:53:52.502 ServerApp] Saving file at /jupyter/flow_approval.ipynb
+[I 2024-11-21 14:55:32.487 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:00:02.853 ServerApp] Kernel interrupted: 499987b4-6e6d-4e56-a792-3a0947c71958
+[I 2024-11-21 15:01:04.170 ServerApp] Creating new directory in /jupyter
+[I 2024-11-21 15:01:18.272 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:03:18.502 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:04:21.285 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:04:35.175 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:08:07.999 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:09:30.469 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:10:33.978 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:12:34.526 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:14:34.641 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:16:34.757 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:18:34.872 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:20:34.981 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:21:06.052 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:23:06.526 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:24:46.779 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:26:47.523 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:26:51.515 ServerApp] Starting buffering for 499987b4-6e6d-4e56-a792-3a0947c71958:3862d2f5-cb2a-4682-a3e8-a316481fb1b5
+[I 2024-11-21 15:26:52.671 ServerApp] Starting buffering for 47ccae86-3fbe-4762-ab1b-d59ccadfa36f:44adfbe8-a993-41de-986a-9551ce833bed
+[I 2024-11-21 15:26:58.720 ServerApp] Connecting to kernel 499987b4-6e6d-4e56-a792-3a0947c71958.
+[I 2024-11-21 15:28:59.870 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:31:00.880 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:31:49.686 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:31:58.019 ServerApp] Kernel restarted: 499987b4-6e6d-4e56-a792-3a0947c71958
+[I 2024-11-21 15:31:58.032 ServerApp] Starting buffering for 499987b4-6e6d-4e56-a792-3a0947c71958:5f809c18-ac2f-4fe6-a4f4-e962ca20c037
+[I 2024-11-21 15:31:58.042 ServerApp] Connecting to kernel 499987b4-6e6d-4e56-a792-3a0947c71958.
+[I 2024-11-21 15:31:58.042 ServerApp] Restoring connection for 499987b4-6e6d-4e56-a792-3a0947c71958:5f809c18-ac2f-4fe6-a4f4-e962ca20c037
+[I 2024-11-21 15:32:35.391 ServerApp] Kernel interrupted: 499987b4-6e6d-4e56-a792-3a0947c71958
+[I 2024-11-21 15:32:38.279 ServerApp] Kernel restarted: 499987b4-6e6d-4e56-a792-3a0947c71958
+[I 2024-11-21 15:32:38.289 ServerApp] Starting buffering for 499987b4-6e6d-4e56-a792-3a0947c71958:5f809c18-ac2f-4fe6-a4f4-e962ca20c037
+[I 2024-11-21 15:32:38.301 ServerApp] Connecting to kernel 499987b4-6e6d-4e56-a792-3a0947c71958.
+[I 2024-11-21 15:32:38.301 ServerApp] Restoring connection for 499987b4-6e6d-4e56-a792-3a0947c71958:5f809c18-ac2f-4fe6-a4f4-e962ca20c037
+[I 2024-11-21 15:33:49.794 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:34:10.681 ServerApp] Kernel restarted: 499987b4-6e6d-4e56-a792-3a0947c71958
+[I 2024-11-21 15:34:10.696 ServerApp] Starting buffering for 499987b4-6e6d-4e56-a792-3a0947c71958:5f809c18-ac2f-4fe6-a4f4-e962ca20c037
+[I 2024-11-21 15:34:10.706 ServerApp] Connecting to kernel 499987b4-6e6d-4e56-a792-3a0947c71958.
+[I 2024-11-21 15:34:10.706 ServerApp] Restoring connection for 499987b4-6e6d-4e56-a792-3a0947c71958:5f809c18-ac2f-4fe6-a4f4-e962ca20c037
+[I 2024-11-21 15:34:47.596 ServerApp] Kernel restarted: 499987b4-6e6d-4e56-a792-3a0947c71958
+[I 2024-11-21 15:34:47.607 ServerApp] Starting buffering for 499987b4-6e6d-4e56-a792-3a0947c71958:5f809c18-ac2f-4fe6-a4f4-e962ca20c037
+[I 2024-11-21 15:34:47.624 ServerApp] Connecting to kernel 499987b4-6e6d-4e56-a792-3a0947c71958.
+[I 2024-11-21 15:34:47.624 ServerApp] Restoring connection for 499987b4-6e6d-4e56-a792-3a0947c71958:5f809c18-ac2f-4fe6-a4f4-e962ca20c037
+[I 2024-11-21 15:35:50.555 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:39:51.028 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:43:51.526 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:45:51.655 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:47:51.784 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:47:52.093 ServerApp] Kernel restarted: 499987b4-6e6d-4e56-a792-3a0947c71958
+[I 2024-11-21 15:47:52.107 ServerApp] Starting buffering for 499987b4-6e6d-4e56-a792-3a0947c71958:5f809c18-ac2f-4fe6-a4f4-e962ca20c037
+[I 2024-11-21 15:47:52.117 ServerApp] Connecting to kernel 499987b4-6e6d-4e56-a792-3a0947c71958.
+[I 2024-11-21 15:47:52.117 ServerApp] Restoring connection for 499987b4-6e6d-4e56-a792-3a0947c71958:5f809c18-ac2f-4fe6-a4f4-e962ca20c037
+[I 2024-11-21 15:48:05.673 ServerApp] Kernel interrupted: 499987b4-6e6d-4e56-a792-3a0947c71958
+[I 2024-11-21 15:48:15.511 ServerApp] Connecting to kernel 47ccae86-3fbe-4762-ab1b-d59ccadfa36f.
+[I 2024-11-21 15:49:52.562 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:50:54.374 ServerApp] Starting buffering for 47ccae86-3fbe-4762-ab1b-d59ccadfa36f:ab5c485d-4203-4dcc-b1d7-9a1e65cbd358
+[I 2024-11-21 15:50:55.538 ServerApp] Starting buffering for 499987b4-6e6d-4e56-a792-3a0947c71958:5f809c18-ac2f-4fe6-a4f4-e962ca20c037
+[I 2024-11-21 15:50:58.000 ServerApp] Connecting to kernel 499987b4-6e6d-4e56-a792-3a0947c71958.
+[I 2024-11-21 15:56:59.563 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 15:59:00.566 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 16:01:01.558 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 16:03:02.574 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 16:13:11.568 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 16:15:11.675 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 16:17:12.614 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 16:19:13.623 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 16:21:14.933 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 16:23:15.067 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 16:24:11.818 ServerApp] Kernel restarted: 499987b4-6e6d-4e56-a792-3a0947c71958
+[I 2024-11-21 16:24:11.833 ServerApp] Starting buffering for 499987b4-6e6d-4e56-a792-3a0947c71958:cb212268-0c6e-4d7c-8743-119dfeebdf1c
+[I 2024-11-21 16:24:11.840 ServerApp] Connecting to kernel 499987b4-6e6d-4e56-a792-3a0947c71958.
+[I 2024-11-21 16:24:11.840 ServerApp] Restoring connection for 499987b4-6e6d-4e56-a792-3a0947c71958:cb212268-0c6e-4d7c-8743-119dfeebdf1c
+[I 2024-11-21 16:25:15.631 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 16:27:15.757 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 16:28:56.197 ServerApp] Saving file at /jupyter/logs.ipynb
+[I 2024-11-21 16:28:57.837 ServerApp] Saving file at /jupyter/logs.ipynb
+[W 2024-11-21 22:01:24.623 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c?1732226484180 (172.16.2.11): Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c
+[W 2024-11-21 22:01:24.623 ServerApp] wrote error: 'Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c)
+[W 2024-11-21 22:01:24.623 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c?1732226484180 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 1.00ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-21 22:01:25.506 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c/channels?session_id=ec139653-4c86-46c2-b171-57efce2c2891 (172.16.2.11): Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c
+[W 2024-11-21 22:01:25.509 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c/channels?session_id=ec139653-4c86-46c2-b171-57efce2c2891 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 3.08ms referer=None
+[W 2024-11-21 22:01:25.560 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c?1732226485191 (172.16.2.11): Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c
+[W 2024-11-21 22:01:25.560 ServerApp] wrote error: 'Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c)
+[W 2024-11-21 22:01:25.560 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c?1732226485191 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.92ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-21 22:01:26.511 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c/channels?session_id=ec139653-4c86-46c2-b171-57efce2c2891 (172.16.2.11): Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c
+[W 2024-11-21 22:01:26.511 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c/channels?session_id=ec139653-4c86-46c2-b171-57efce2c2891 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.90ms referer=None
+[W 2024-11-21 22:01:26.516 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c?1732226486152 (172.16.2.11): Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c
+[W 2024-11-21 22:01:26.516 ServerApp] wrote error: 'Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c)
+[W 2024-11-21 22:01:26.516 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c?1732226486152 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.59ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-21 22:01:28.633 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c/channels?session_id=ec139653-4c86-46c2-b171-57efce2c2891 (172.16.2.11): Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c
+[W 2024-11-21 22:01:28.634 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c/channels?session_id=ec139653-4c86-46c2-b171-57efce2c2891 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.84ms referer=None
+[W 2024-11-21 22:01:28.670 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c?1732226488275 (172.16.2.11): Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c
+[W 2024-11-21 22:01:28.670 ServerApp] wrote error: 'Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c)
+[W 2024-11-21 22:01:28.671 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c?1732226488275 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.94ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-21 22:01:44.519 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c/channels?session_id=ec139653-4c86-46c2-b171-57efce2c2891 (172.16.2.11): Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c
+[W 2024-11-21 22:01:44.519 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c/channels?session_id=ec139653-4c86-46c2-b171-57efce2c2891 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.94ms referer=None
+[W 2024-11-21 22:01:44.524 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c?1732226504160 (172.16.2.11): Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c
+[W 2024-11-21 22:01:44.524 ServerApp] wrote error: 'Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c)
+[W 2024-11-21 22:01:44.524 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c?1732226504160 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.65ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-21 22:01:49.502 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f?1732226509135 (172.16.2.11): Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f
+[W 2024-11-21 22:01:49.502 ServerApp] wrote error: 'Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f)
+[W 2024-11-21 22:01:49.502 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f?1732226509135 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.84ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-21 22:01:50.511 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f/channels?session_id=79dd6365-7b7f-4dd6-95a4-b039ab926a73 (172.16.2.11): Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f
+[W 2024-11-21 22:01:50.511 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f/channels?session_id=79dd6365-7b7f-4dd6-95a4-b039ab926a73 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.85ms referer=None
+[W 2024-11-21 22:01:50.544 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f?1732226510180 (172.16.2.11): Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f
+[W 2024-11-21 22:01:50.544 ServerApp] wrote error: 'Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f)
+[W 2024-11-21 22:01:50.545 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f?1732226510180 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.99ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-21 22:01:51.510 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f/channels?session_id=79dd6365-7b7f-4dd6-95a4-b039ab926a73 (172.16.2.11): Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f
+[W 2024-11-21 22:01:51.511 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f/channels?session_id=79dd6365-7b7f-4dd6-95a4-b039ab926a73 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.88ms referer=None
+[W 2024-11-21 22:01:51.515 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f?1732226511151 (172.16.2.11): Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f
+[W 2024-11-21 22:01:51.515 ServerApp] wrote error: 'Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f)
+[W 2024-11-21 22:01:51.516 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f?1732226511151 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.61ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-21 22:01:58.539 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f/channels?session_id=79dd6365-7b7f-4dd6-95a4-b039ab926a73 (172.16.2.11): Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f
+[W 2024-11-21 22:01:58.540 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f/channels?session_id=79dd6365-7b7f-4dd6-95a4-b039ab926a73 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.89ms referer=None
+[W 2024-11-21 22:01:58.545 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f?1732226518180 (172.16.2.11): Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f
+[W 2024-11-21 22:01:58.545 ServerApp] wrote error: 'Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f)
+[W 2024-11-21 22:01:58.545 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f?1732226518180 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.58ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-21 22:02:03.542 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c/channels?session_id=ec139653-4c86-46c2-b171-57efce2c2891 (172.16.2.11): Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c
+[W 2024-11-21 22:02:03.542 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c/channels?session_id=ec139653-4c86-46c2-b171-57efce2c2891 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.83ms referer=None
+[W 2024-11-21 22:02:03.548 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c?1732226523184 (172.16.2.11): Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c
+[W 2024-11-21 22:02:03.548 ServerApp] wrote error: 'Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c)
+[W 2024-11-21 22:02:03.548 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c?1732226523184 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.57ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-21 22:02:11.530 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f/channels?session_id=79dd6365-7b7f-4dd6-95a4-b039ab926a73 (172.16.2.11): Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f
+[W 2024-11-21 22:02:11.531 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f/channels?session_id=79dd6365-7b7f-4dd6-95a4-b039ab926a73 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.88ms referer=None
+[W 2024-11-21 22:02:11.536 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f?1732226531172 (172.16.2.11): Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f
+[W 2024-11-21 22:02:11.536 ServerApp] wrote error: 'Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f)
+[W 2024-11-21 22:02:11.536 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f?1732226531172 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.61ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-21 22:02:24.566 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c/channels?session_id=ec139653-4c86-46c2-b171-57efce2c2891 (172.16.2.11): Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c
+[W 2024-11-21 22:02:24.566 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c/channels?session_id=ec139653-4c86-46c2-b171-57efce2c2891 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.89ms referer=None
+[W 2024-11-21 22:02:24.572 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c?1732226544208 (172.16.2.11): Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c
+[W 2024-11-21 22:02:24.572 ServerApp] wrote error: 'Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 2cf887b6-131c-47e7-8f00-008dbcb0442c)
+[W 2024-11-21 22:02:24.572 ServerApp] 404 GET /api/kernels/2cf887b6-131c-47e7-8f00-008dbcb0442c?1732226544208 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.60ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-21 22:02:34.595 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f/channels?session_id=79dd6365-7b7f-4dd6-95a4-b039ab926a73 (172.16.2.11): Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f
+[W 2024-11-21 22:02:34.596 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f/channels?session_id=79dd6365-7b7f-4dd6-95a4-b039ab926a73 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.84ms referer=None
+[W 2024-11-21 22:02:34.600 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f?1732226554237 (172.16.2.11): Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f
+[W 2024-11-21 22:02:34.600 ServerApp] wrote error: 'Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f)
+[W 2024-11-21 22:02:34.601 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f?1732226554237 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.63ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-22 00:38:29.051 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f/channels?session_id=79dd6365-7b7f-4dd6-95a4-b039ab926a73 (172.16.2.11): Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f
+[W 2024-11-22 00:38:29.052 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f/channels?session_id=79dd6365-7b7f-4dd6-95a4-b039ab926a73 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.83ms referer=None
+[W 2024-11-22 00:38:29.148 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f?1732235908746 (172.16.2.11): Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f
+[W 2024-11-22 00:38:29.148 ServerApp] wrote error: 'Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 5000bf16-f0c7-48e5-a98b-a89f13d7ec7f)
+[W 2024-11-22 00:38:29.148 ServerApp] 404 GET /api/kernels/5000bf16-f0c7-48e5-a98b-a89f13d7ec7f?1732235908746 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.81ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-22 00:51:16.795 ServerApp] 404 GET /api/contents/transformers?content=1&hash=0&1732236676424 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.35ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-22 00:51:16.796 ServerApp] 404 GET /api/contents/transformers?content=1&hash=0&1732236676424 (172.16.2.11): No such file or directory: transformers
+[I 2024-11-22 00:51:22.820 ServerApp] Connecting to kernel 47ccae86-3fbe-4762-ab1b-d59ccadfa36f.
+[I 2024-11-22 00:51:22.822 ServerApp] Connecting to kernel 499987b4-6e6d-4e56-a792-3a0947c71958.
+[I 2024-11-22 00:51:22.835 ServerApp] Starting buffering for 47ccae86-3fbe-4762-ab1b-d59ccadfa36f:4b5eea0a-d53e-48c9-9c2f-eb10b09590e8
+[W 2024-11-22 00:51:22.986 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-11-22 00:51:23.138 ServerApp] 404 GET /api/contents/transformers?content=0&hash=0&1732236682767 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 1.00ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-22 00:51:23.138 ServerApp] 404 GET /api/contents/transformers?content=0&hash=0&1732236682767 (172.16.2.11): No such file or directory: transformers
+[W 2024-11-22 00:51:23.138 ServerApp] 404 GET /api/contents/transformers/pipelines_advanced.ipynb?content=0&hash=0&1732236682767 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 1.15ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-22 00:51:23.138 ServerApp] 404 GET /api/contents/transformers/pipelines_advanced.ipynb?content=0&hash=0&1732236682767 (172.16.2.11): No such file or directory: transformers/pipelines_advanced.ipynb
+[W 2024-11-22 00:51:23.139 ServerApp] 404 GET /api/contents/transformers/Untitled.ipynb?content=0&hash=0&1732236682767 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 1.36ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-22 00:51:23.139 ServerApp] 404 GET /api/contents/transformers/Untitled.ipynb?content=0&hash=0&1732236682767 (172.16.2.11): No such file or directory: transformers/Untitled.ipynb
+[W 2024-11-22 00:51:23.139 ServerApp] 404 GET /api/contents/transformers/pipelines.ipynb?content=0&hash=0&1732236682767 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.37ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-22 00:51:23.139 ServerApp] 404 GET /api/contents/transformers/pipelines.ipynb?content=0&hash=0&1732236682767 (172.16.2.11): No such file or directory: transformers/pipelines.ipynb
+[W 2024-11-22 00:51:23.140 ServerApp] 404 GET /api/contents/transformers/Untitled.ipynb?content=0&hash=0&1732236682767 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.55ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-22 00:51:23.140 ServerApp] 404 GET /api/contents/transformers/Untitled.ipynb?content=0&hash=0&1732236682767 (172.16.2.11): No such file or directory: transformers/Untitled.ipynb
+[W 2024-11-22 00:51:23.140 ServerApp] 404 GET /api/contents/transformers/pipelines.ipynb?content=0&hash=0&1732236682768 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.74ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-22 00:51:23.140 ServerApp] 404 GET /api/contents/transformers/pipelines.ipynb?content=0&hash=0&1732236682768 (172.16.2.11): No such file or directory: transformers/pipelines.ipynb
+[W 2024-11-22 00:51:23.142 ServerApp] 404 GET /api/contents/transformers/pipelines_advanced.ipynb?content=0&hash=0&1732236682768 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.34ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-22 00:51:23.142 ServerApp] 404 GET /api/contents/transformers/pipelines_advanced.ipynb?content=0&hash=0&1732236682768 (172.16.2.11): No such file or directory: transformers/pipelines_advanced.ipynb
+[W 2024-11-22 00:51:24.185 ServerApp] 404 GET /api/contents/transformers/pipelines_advanced.ipynb?content=0&hash=0&1732236683815 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.88ms referer=http://172.16.3.199:8000/lab/tree/transformers/pipelines_advanced.ipynb
+[W 2024-11-22 00:51:24.185 ServerApp] 404 GET /api/contents/transformers/pipelines_advanced.ipynb?content=0&hash=0&1732236683815 (172.16.2.11): No such file or directory: transformers/pipelines_advanced.ipynb
+[C 2024-11-22 00:52:13.898 ServerApp] received signal 15, stopping
+[I 2024-11-22 00:52:13.898 ServerApp] Shutting down 4 extensions
+[I 2024-11-22 00:52:13.899 ServerApp] Shutting down 2 kernels
+[I 2024-11-22 00:52:13.899 ServerApp] Kernel shutdown: 499987b4-6e6d-4e56-a792-3a0947c71958
+[I 2024-11-22 00:52:13.899 ServerApp] Kernel shutdown: 47ccae86-3fbe-4762-ab1b-d59ccadfa36f
+[I 2024-11-22 00:52:41.992 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-11-22 00:52:41.994 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-11-22 00:52:41.997 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-11-22 00:52:42.105 ServerApp] notebook_shim | extension was successfully linked.
+[W 2024-11-22 00:52:42.114 ServerApp] WARNING: The Jupyter server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 2024-11-22 00:52:42.114 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-11-22 00:52:42.115 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-11-22 00:52:42.116 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-11-22 00:52:42.116 LabApp] JupyterLab extension loaded from /data/conda/envs/logs/lib/python3.10/site-packages/jupyterlab
+[I 2024-11-22 00:52:42.116 LabApp] JupyterLab application directory is /data/conda/envs/logs/share/jupyter/lab
+[I 2024-11-22 00:52:42.117 LabApp] Extension Manager is 'pypi'.
+[I 2024-11-22 00:52:42.156 LabApp] Extensions will be fetched using proxy, proxy host and port: ('127.0.0.1', '7890')
+[I 2024-11-22 00:52:42.158 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-11-22 00:52:42.158 ServerApp] Serving notebooks from local directory: /data/pub/ai_audit
+[I 2024-11-22 00:52:42.158 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2024-11-22 00:52:42.158 ServerApp] http://localhost:8000/lab?token=be92a707f45e6e24d28d496d32653c9780917b102ed579c4
+[I 2024-11-22 00:52:42.158 ServerApp]     http://127.0.0.1:8000/lab?token=be92a707f45e6e24d28d496d32653c9780917b102ed579c4
+[I 2024-11-22 00:52:42.158 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-11-22 00:52:42.160 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///root/.local/share/jupyter/runtime/jpserver-983949-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8000/lab?token=be92a707f45e6e24d28d496d32653c9780917b102ed579c4
+        http://127.0.0.1:8000/lab?token=be92a707f45e6e24d28d496d32653c9780917b102ed579c4
+[I 2024-11-22 00:52:42.170 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2024-11-22 00:52:53.722 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958?1732236773286 (11.0.0.1): Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958
+[W 2024-11-22 00:52:53.722 ServerApp] wrote error: 'Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958)
+[W 2024-11-22 00:52:53.723 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958?1732236773286 (a1a0d4dce5954401a027a88a6a404cbd@11.0.0.1) 1.45ms referer=http://172.16.3.199:8000/lab/tree/jupyter/logs.ipynb
+[W 2024-11-22 00:52:54.714 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958/channels?session_id=cb212268-0c6e-4d7c-8743-119dfeebdf1c (11.0.0.1): Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958
+[W 2024-11-22 00:52:54.721 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958/channels?session_id=cb212268-0c6e-4d7c-8743-119dfeebdf1c (a1a0d4dce5954401a027a88a6a404cbd@11.0.0.1) 7.83ms referer=None
+[W 2024-11-22 00:52:54.732 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958?1732236774309 (11.0.0.1): Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958
+[W 2024-11-22 00:52:54.732 ServerApp] wrote error: 'Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958)
+[W 2024-11-22 00:52:54.732 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958?1732236774309 (a1a0d4dce5954401a027a88a6a404cbd@11.0.0.1) 0.60ms referer=http://172.16.3.199:8000/lab/tree/jupyter/logs.ipynb
+[W 2024-11-22 00:52:57.728 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958/channels?session_id=cb212268-0c6e-4d7c-8743-119dfeebdf1c (11.0.0.1): Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958
+[W 2024-11-22 00:52:57.729 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958/channels?session_id=cb212268-0c6e-4d7c-8743-119dfeebdf1c (a1a0d4dce5954401a027a88a6a404cbd@11.0.0.1) 0.96ms referer=None
+[W 2024-11-22 00:52:57.738 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958?1732236777317 (11.0.0.1): Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958
+[W 2024-11-22 00:52:57.738 ServerApp] wrote error: 'Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958)
+[W 2024-11-22 00:52:57.739 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958?1732236777317 (a1a0d4dce5954401a027a88a6a404cbd@11.0.0.1) 0.60ms referer=http://172.16.3.199:8000/lab/tree/jupyter/logs.ipynb
+[W 2024-11-22 00:53:01.716 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958/channels?session_id=cb212268-0c6e-4d7c-8743-119dfeebdf1c (11.0.0.1): Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958
+[W 2024-11-22 00:53:01.717 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958/channels?session_id=cb212268-0c6e-4d7c-8743-119dfeebdf1c (a1a0d4dce5954401a027a88a6a404cbd@11.0.0.1) 1.05ms referer=None
+[W 2024-11-22 00:53:01.727 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958?1732236781305 (11.0.0.1): Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958
+[W 2024-11-22 00:53:01.727 ServerApp] wrote error: 'Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958)
+[W 2024-11-22 00:53:01.727 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958?1732236781305 (a1a0d4dce5954401a027a88a6a404cbd@11.0.0.1) 0.60ms referer=http://172.16.3.199:8000/lab/tree/jupyter/logs.ipynb
+[W 2024-11-22 00:53:16.716 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958/channels?session_id=cb212268-0c6e-4d7c-8743-119dfeebdf1c (11.0.0.1): Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958
+[W 2024-11-22 00:53:16.717 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958/channels?session_id=cb212268-0c6e-4d7c-8743-119dfeebdf1c (a1a0d4dce5954401a027a88a6a404cbd@11.0.0.1) 0.92ms referer=None
+[W 2024-11-22 00:53:16.727 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958?1732236796304 (11.0.0.1): Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958
+[W 2024-11-22 00:53:16.727 ServerApp] wrote error: 'Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958)
+[W 2024-11-22 00:53:16.727 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958?1732236796304 (a1a0d4dce5954401a027a88a6a404cbd@11.0.0.1) 0.84ms referer=http://172.16.3.199:8000/lab/tree/jupyter/logs.ipynb
+[W 2024-11-22 00:53:46.732 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958/channels?session_id=cb212268-0c6e-4d7c-8743-119dfeebdf1c (11.0.0.1): Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958
+[W 2024-11-22 00:53:46.732 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958/channels?session_id=cb212268-0c6e-4d7c-8743-119dfeebdf1c (a1a0d4dce5954401a027a88a6a404cbd@11.0.0.1) 0.93ms referer=None
+[W 2024-11-22 00:53:46.743 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958?1732236826319 (11.0.0.1): Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958
+[W 2024-11-22 00:53:46.743 ServerApp] wrote error: 'Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958)
+[W 2024-11-22 00:53:46.744 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958?1732236826319 (a1a0d4dce5954401a027a88a6a404cbd@11.0.0.1) 0.95ms referer=http://172.16.3.199:8000/lab/tree/jupyter/logs.ipynb
+[W 2024-11-22 00:54:47.723 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958/channels?session_id=cb212268-0c6e-4d7c-8743-119dfeebdf1c (11.0.0.1): Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958
+[W 2024-11-22 00:54:47.723 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958/channels?session_id=cb212268-0c6e-4d7c-8743-119dfeebdf1c (a1a0d4dce5954401a027a88a6a404cbd@11.0.0.1) 1.06ms referer=None
+[W 2024-11-22 00:54:47.734 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958?1732236887309 (11.0.0.1): Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958
+[W 2024-11-22 00:54:47.734 ServerApp] wrote error: 'Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 499987b4-6e6d-4e56-a792-3a0947c71958)
+[W 2024-11-22 00:54:47.735 ServerApp] 404 GET /api/kernels/499987b4-6e6d-4e56-a792-3a0947c71958?1732236887309 (a1a0d4dce5954401a027a88a6a404cbd@11.0.0.1) 0.99ms referer=http://172.16.3.199:8000/lab/tree/jupyter/logs.ipynb
+[I 2024-11-22 00:55:24.586 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-11-22 00:55:24.589 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-11-22 00:55:24.592 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-11-22 00:55:24.702 ServerApp] notebook_shim | extension was successfully linked.
+[W 2024-11-22 00:55:24.711 ServerApp] WARNING: The Jupyter server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 2024-11-22 00:55:24.711 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-11-22 00:55:24.712 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-11-22 00:55:24.713 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-11-22 00:55:24.713 LabApp] JupyterLab extension loaded from /data/conda/envs/logs/lib/python3.10/site-packages/jupyterlab
+[I 2024-11-22 00:55:24.713 LabApp] JupyterLab application directory is /data/conda/envs/logs/share/jupyter/lab
+[I 2024-11-22 00:55:24.713 LabApp] Extension Manager is 'pypi'.
+[I 2024-11-22 00:55:24.752 LabApp] Extensions will be fetched using proxy, proxy host and port: ('127.0.0.1', '7890')
+[I 2024-11-22 00:55:24.754 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-11-22 00:55:24.755 ServerApp] Serving notebooks from local directory: /data/pub/ai_audit
+[I 2024-11-22 00:55:24.755 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2024-11-22 00:55:24.755 ServerApp] http://localhost:8000/lab?token=986811c95555a077231bf02a03c44b603f93a53471adc075
+[I 2024-11-22 00:55:24.755 ServerApp]     http://127.0.0.1:8000/lab?token=986811c95555a077231bf02a03c44b603f93a53471adc075
+[I 2024-11-22 00:55:24.755 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-11-22 00:55:24.757 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///root/.local/share/jupyter/runtime/jpserver-984548-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8000/lab?token=986811c95555a077231bf02a03c44b603f93a53471adc075
+        http://127.0.0.1:8000/lab?token=986811c95555a077231bf02a03c44b603f93a53471adc075
+[I 2024-11-22 00:55:24.767 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2024-11-22 00:55:50.869 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-11-22 00:56:00.401 ServerApp] Notebook jupyter/logs.ipynb is not trusted
+[I 2024-11-22 00:56:00.592 ServerApp] Kernel started: 30486dbe-29ca-471e-bb23-9c6f65c45f2f
+[I 2024-11-22 00:56:00.860 ServerApp] Connecting to kernel 30486dbe-29ca-471e-bb23-9c6f65c45f2f.
+[I 2024-11-22 00:56:00.937 ServerApp] Starting buffering for 30486dbe-29ca-471e-bb23-9c6f65c45f2f:de034191-14c2-4e75-9ef1-327e79bf235f
+[I 2024-11-22 00:56:00.940 ServerApp] Connecting to kernel 30486dbe-29ca-471e-bb23-9c6f65c45f2f.
+[I 2024-11-22 00:56:01.012 ServerApp] Connecting to kernel 30486dbe-29ca-471e-bb23-9c6f65c45f2f.
+[I 2024-11-22 00:58:00.522 ServerApp] Saving file at /jupyter/logs.ipynb
+[W 2024-11-22 00:58:00.523 ServerApp] Notebook jupyter/logs.ipynb is not trusted
+[I 2024-11-22 01:11:19.933 ServerApp] Saving file at /jupyter/logs.ipynb
+[W 2024-11-22 01:11:19.933 ServerApp] Notebook jupyter/logs.ipynb is not trusted
+[I 2024-11-22 01:13:20.602 ServerApp] Saving file at /jupyter/logs.ipynb
+[W 2024-11-22 01:13:20.602 ServerApp] Notebook jupyter/logs.ipynb is not trusted
+[I 2024-11-22 01:25:07.745 ServerApp] Creating new notebook in /jupyter/data
+[I 2024-11-22 01:25:08.050 ServerApp] Kernel started: 4775a6a0-81b7-4b1d-b431-a581d9d48598
+[I 2024-11-22 01:25:08.283 ServerApp] Connecting to kernel 4775a6a0-81b7-4b1d-b431-a581d9d48598.
+[I 2024-11-22 01:25:19.341 ServerApp] Starting buffering for 4775a6a0-81b7-4b1d-b431-a581d9d48598:b2ecec95-3c7f-4ee3-ae40-243fe9b04ea7
+[I 2024-11-22 01:25:24.897 ServerApp] Creating new notebook in /jupyter
+[I 2024-11-22 01:25:25.157 ServerApp] Kernel started: c887e2cf-13cf-41eb-8706-bab8542a16c3
+[I 2024-11-22 01:25:25.436 ServerApp] Connecting to kernel c887e2cf-13cf-41eb-8706-bab8542a16c3.
+[I 2024-11-22 01:25:31.109 ServerApp] Saving file at /jupyter/Untitled.ipynb
+[E 2024-11-22 01:25:31.274 ServerApp] Uncaught exception POST /api/contents/jupyter/Untitled.ipynb/checkpoints?1732238730868 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/contents/jupyter/Untitled.ipynb/checkpoints?1732238730868', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 357, in post
+        checkpoint = await ensure_async(cm.create_checkpoint(path))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1085, in create_checkpoint
+        return await self.checkpoints.create_checkpoint(self, path)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 140, in create_checkpoint
+        await self._copy(src_path, dest_path)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/fileio.py", line 444, in _copy
+        await async_copy2_safe(src, dest, log=self.log)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/fileio.py", line 55, in async_copy2_safe
+        await run_sync(shutil.copyfile, src, dst)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2441, in run_sync_in_worker_thread
+        return await future
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 943, in run
+        result = context.run(func, *args)
+      File "/data/conda/envs/logs/lib/python3.10/shutil.py", line 254, in copyfile
+        with open(src, 'rb') as fsrc:
+    FileNotFoundError: [Errno 2] No such file or directory: '/data/pub/ai_audit/jupyter/Untitled.ipynb'
+[W 2024-11-22 01:25:31.296 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 357, in post
+        checkpoint = await ensure_async(cm.create_checkpoint(path))
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1085, in create_checkpoint
+        return await self.checkpoints.create_checkpoint(self, path)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 140, in create_checkpoint
+        await self._copy(src_path, dest_path)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/fileio.py", line 444, in _copy
+        await async_copy2_safe(src, dest, log=self.log)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/fileio.py", line 55, in async_copy2_safe
+        await run_sync(shutil.copyfile, src, dst)
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2441, in run_sync_in_worker_thread
+        return await future
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 943, in run
+        result = context.run(func, *args)
+      File "/data/conda/envs/logs/lib/python3.10/shutil.py", line 254, in copyfile
+        with open(src, 'rb') as fsrc:
+    FileNotFoundError: [Errno 2] No such file or directory: '/data/pub/ai_audit/jupyter/Untitled.ipynb'
+[E 2024-11-22 01:25:31.297 ServerApp] {
+      "Host": "127.0.0.1:8000",
+      "Accept": "*/*",
+      "Referer": "http://127.0.0.1:8000/lab/tree/jupyter/Untitled.ipynb",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-11-22 01:25:31.297 ServerApp] 500 POST /api/contents/jupyter/Untitled.ipynb/checkpoints?1732238730868 (8b4ec2c1925d44e7abc5afcb4ec452be@127.0.0.1) 24.14ms referer=http://127.0.0.1:8000/lab/tree/jupyter/Untitled.ipynb
+[I 2024-11-22 01:27:31.352 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 01:30:15.230 ServerApp] Kernel shutdown: 4775a6a0-81b7-4b1d-b431-a581d9d48598
+[W 2024-11-22 01:30:15.378 ServerApp] delete /jupyter/data/Untitled.ipynb
+[I 2024-11-22 01:32:07.270 ServerApp] Kernel started: ac4334ca-c7a0-4d70-b899-4c69d36d6955
+[I 2024-11-22 01:32:07.555 ServerApp] Connecting to kernel ac4334ca-c7a0-4d70-b899-4c69d36d6955.
+[I 2024-11-22 01:57:46.038 ServerApp] Starting buffering for 30486dbe-29ca-471e-bb23-9c6f65c45f2f:d38e018f-fbb3-4eb1-ad04-f6115c328694
+[I 2024-11-22 01:57:46.039 ServerApp] Starting buffering for c887e2cf-13cf-41eb-8706-bab8542a16c3:4b77239f-0710-4e04-8c9b-be798409f622
+[I 2024-11-22 01:57:46.039 ServerApp] Starting buffering for ac4334ca-c7a0-4d70-b899-4c69d36d6955:bd94e9b1-17ea-4006-a8c4-6e8c0ad25d97
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[I 2024-11-22 02:24:31.250 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-11-22 02:24:31.252 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-11-22 02:24:31.255 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-11-22 02:24:31.361 ServerApp] notebook_shim | extension was successfully linked.
+[W 2024-11-22 02:24:31.369 ServerApp] WARNING: The Jupyter server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 2024-11-22 02:24:31.369 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-11-22 02:24:31.371 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-11-22 02:24:31.371 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-11-22 02:24:31.372 LabApp] JupyterLab extension loaded from /data/conda/envs/logs/lib/python3.10/site-packages/jupyterlab
+[I 2024-11-22 02:24:31.372 LabApp] JupyterLab application directory is /data/conda/envs/logs/share/jupyter/lab
+[I 2024-11-22 02:24:31.372 LabApp] Extension Manager is 'pypi'.
+[I 2024-11-22 02:24:31.413 LabApp] Extensions will be fetched using proxy, proxy host and port: ('127.0.0.1', '7890')
+[I 2024-11-22 02:24:31.415 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-11-22 02:24:31.416 ServerApp] Serving notebooks from local directory: /data/pub/ai_audit
+[I 2024-11-22 02:24:31.416 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2024-11-22 02:24:31.416 ServerApp] http://localhost:8000/lab?token=323a4d8f5617e00259e6656e49868a0b9206929dfcf89f77
+[I 2024-11-22 02:24:31.416 ServerApp]     http://127.0.0.1:8000/lab?token=323a4d8f5617e00259e6656e49868a0b9206929dfcf89f77
+[I 2024-11-22 02:24:31.416 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-11-22 02:24:31.418 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///root/.local/share/jupyter/runtime/jpserver-989751-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8000/lab?token=323a4d8f5617e00259e6656e49868a0b9206929dfcf89f77
+        http://127.0.0.1:8000/lab?token=323a4d8f5617e00259e6656e49868a0b9206929dfcf89f77
+[I 2024-11-22 02:24:31.428 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2024-11-22 02:25:59.805 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-11-22 02:25:59.988 ServerApp] 404 GET /api/contents/jupyter/Untitled.ipynb?content=0&hash=0&1732242359534 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.99ms referer=http://172.16.3.199:8000/lab
+[W 2024-11-22 02:25:59.988 ServerApp] 404 GET /api/contents/jupyter/Untitled.ipynb?content=0&hash=0&1732242359534 (172.16.2.11): No such file or directory: jupyter/Untitled.ipynb
+[W 2024-11-22 02:25:59.989 ServerApp] 404 GET /api/contents/jupyter/data/Untitled.ipynb?content=0&hash=0&1732242359534 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.39ms referer=http://172.16.3.199:8000/lab
+[W 2024-11-22 02:25:59.989 ServerApp] 404 GET /api/contents/jupyter/data/Untitled.ipynb?content=0&hash=0&1732242359534 (172.16.2.11): No such file or directory: jupyter/data/Untitled.ipynb
+[W 2024-11-22 02:25:59.993 ServerApp] 404 GET /api/contents/jupyter/data/Untitled.ipynb?content=0&hash=0&1732242359534 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 0.43ms referer=http://172.16.3.199:8000/lab
+[W 2024-11-22 02:25:59.993 ServerApp] 404 GET /api/contents/jupyter/data/Untitled.ipynb?content=0&hash=0&1732242359534 (172.16.2.11): No such file or directory: jupyter/data/Untitled.ipynb
+[W 2024-11-22 02:26:00.181 ServerApp] Notebook jupyter/logs.ipynb is not trusted
+[I 2024-11-22 02:26:00.410 ServerApp] Kernel started: 631693ed-86c0-458e-b255-ee94ffa4fd00
+[I 2024-11-22 02:26:00.415 ServerApp] Kernel started: 966dbd1f-bd42-4529-91ec-4e76e9b18d06
+[I 2024-11-22 02:26:00.418 ServerApp] Kernel started: 899bf578-e0bd-410d-85ca-fdf01b209da7
+[I 2024-11-22 02:26:00.691 ServerApp] Connecting to kernel 899bf578-e0bd-410d-85ca-fdf01b209da7.
+[I 2024-11-22 02:26:00.692 ServerApp] Connecting to kernel 899bf578-e0bd-410d-85ca-fdf01b209da7.
+[I 2024-11-22 02:26:00.694 ServerApp] Connecting to kernel 899bf578-e0bd-410d-85ca-fdf01b209da7.
+[I 2024-11-22 02:26:00.725 ServerApp] Connecting to kernel 631693ed-86c0-458e-b255-ee94ffa4fd00.
+[I 2024-11-22 02:26:00.748 ServerApp] Connecting to kernel 966dbd1f-bd42-4529-91ec-4e76e9b18d06.
+[I 2024-11-22 02:26:00.750 ServerApp] Connecting to kernel 966dbd1f-bd42-4529-91ec-4e76e9b18d06.
+[I 2024-11-22 02:26:59.114 ServerApp] Saving file at /jupyter/flow_approval.ipynb
+[I 2024-11-22 02:28:59.614 ServerApp] Saving file at /jupyter/flow_approval.ipynb
+[I 2024-11-22 02:36:03.624 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 02:40:04.631 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 02:58:04.817 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 03:00:04.922 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 03:02:05.023 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 03:10:07.000 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 03:18:09.656 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 03:52:54.770 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 04:00:15.923 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 04:00:57.767 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 04:09:01.781 ServerApp] Saving file at /jupyter/logs2.ipynb
+[W 2024-11-22 04:52:54.827 ServerApp] delete /jupyter/data/login_logs.csv
+[I 2024-11-22 04:53:54.805 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 04:55:55.797 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 04:58:54.777 ServerApp] Saving file at /jupyter/logs.ipynb
+[W 2024-11-22 04:58:54.777 ServerApp] Notebook jupyter/logs.ipynb is not trusted
+[I 2024-11-22 05:00:54.873 ServerApp] Saving file at /jupyter/logs.ipynb
+[W 2024-11-22 05:00:54.873 ServerApp] Notebook jupyter/logs.ipynb is not trusted
+[I 2024-11-22 05:03:57.746 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 05:05:58.759 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 05:27:54.725 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 05:31:56.735 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 05:33:57.766 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 05:35:57.892 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 05:46:00.820 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 05:46:41.372 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 05:48:41.842 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 05:58:45.864 ServerApp] Saving file at /jupyter/logs2.ipynb
+[W 2024-11-22 05:59:51.668 ServerApp] 400 GET /api/contents/jupyter/data/login_logs.csv?type=file&content=1&hash=1&format=text&1732255190963 (172.16.2.11): /data/pub/ai_audit/jupyter/data/login_logs.csv is not UTF-8 encoded
+[W 2024-11-22 05:59:51.668 ServerApp] wrote error: '/data/pub/ai_audit/jupyter/data/login_logs.csv is not UTF-8 encoded'
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/fileio.py", line 536, in _read_file
+        (bcontent.decode("utf8"), "text", bcontent)
+    UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd3 in position 0: invalid continuation byte
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 154, in get
+        model = await ensure_async(
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 835, in _file_model
+        content, format, bytes_content = await self._read_file(os_path, format, raw=True)  # type: ignore[misc]
+      File "/data/conda/envs/logs/lib/python3.10/site-packages/jupyter_server/services/contents/fileio.py", line 545, in _read_file
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: bad format (/data/pub/ai_audit/jupyter/data/login_logs.csv is not UTF-8 encoded)
+[W 2024-11-22 05:59:51.669 ServerApp] 400 GET /api/contents/jupyter/data/login_logs.csv?type=file&content=1&hash=1&format=text&1732255190963 (31e27aadb5ae4ecbae15af8f312a58c9@172.16.2.11) 2.23ms referer=http://172.16.3.199:8000/lab/tree/jupyter/data/login_logs.csv
+[I 2024-11-22 06:00:46.876 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 06:15:02.516 ServerApp] Starting buffering for 899bf578-e0bd-410d-85ca-fdf01b209da7:c321476f-549a-4fac-92b5-2e550eb2f7ff
+[I 2024-11-22 06:15:02.517 ServerApp] Starting buffering for 631693ed-86c0-458e-b255-ee94ffa4fd00:7045e4fe-d3c8-41c6-aa3b-26946ecc8e10
+[I 2024-11-22 06:15:02.517 ServerApp] Starting buffering for 966dbd1f-bd42-4529-91ec-4e76e9b18d06:e77df105-54dc-4149-a482-339abccd7e30
+[I 2024-11-22 06:15:02.872 ServerApp] Connecting to kernel 631693ed-86c0-458e-b255-ee94ffa4fd00.
+[I 2024-11-22 06:15:02.876 ServerApp] Connecting to kernel 966dbd1f-bd42-4529-91ec-4e76e9b18d06.
+[I 2024-11-22 06:15:02.877 ServerApp] Connecting to kernel 899bf578-e0bd-410d-85ca-fdf01b209da7.
+[I 2024-11-22 06:15:02.892 ServerApp] Starting buffering for 631693ed-86c0-458e-b255-ee94ffa4fd00:f2bfa840-b572-48a3-b9b3-9fce2370608a
+[I 2024-11-22 06:15:02.894 ServerApp] Starting buffering for 966dbd1f-bd42-4529-91ec-4e76e9b18d06:7699cd15-ad9a-46b8-a11d-70ffc3977acf
+[I 2024-11-22 06:15:02.894 ServerApp] Starting buffering for 899bf578-e0bd-410d-85ca-fdf01b209da7:99ca8e1b-3ace-4e14-adf4-09669bb0eefa
+[W 2024-11-22 06:15:02.938 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-11-22 06:15:03.226 ServerApp] Notebook jupyter/logs.ipynb is not trusted
+[I 2024-11-22 06:15:03.572 ServerApp] Connecting to kernel 899bf578-e0bd-410d-85ca-fdf01b209da7.
+[I 2024-11-22 06:15:03.575 ServerApp] Connecting to kernel 631693ed-86c0-458e-b255-ee94ffa4fd00.
+[I 2024-11-22 06:15:03.576 ServerApp] Connecting to kernel 966dbd1f-bd42-4529-91ec-4e76e9b18d06.
+[I 2024-11-22 06:23:05.795 ServerApp] Saving file at /jupyter/logs2.ipynb
+[W 2024-11-22 06:25:37.004 ServerApp] delete /jupyter/data/login_logs.csv
+[W 2024-11-22 06:25:55.551 ServerApp] delete /jupyter/data/login_logs_with_rules.csv
+[I 2024-11-22 06:27:06.791 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 06:28:58.066 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 06:30:58.170 ServerApp] Saving file at /jupyter/logs2.ipynb
+[W 2024-11-22 06:32:57.827 ServerApp] delete /jupyter/data/login_logs.csv
+[I 2024-11-22 06:34:58.302 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 07:01:54.849 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 07:09:18.018 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 07:11:18.160 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 07:31:51.366 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 07:35:51.853 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 07:37:00.675 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 07:38:35.499 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 07:40:35.641 ServerApp] Saving file at /jupyter/logs2.ipynb
+[I 2024-11-22 09:42:54.948 ServerApp] Saving file at /jupyter/logs2.ipynb
