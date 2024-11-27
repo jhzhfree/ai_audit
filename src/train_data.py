@@ -11,13 +11,18 @@ import gradio as gr
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.model_selection import GridSearchCV
 import joblib
+import datetime
+from utils import ip_to_int
+
 
 logging.basicConfig(
-    level=logging.DEBUG,  # 设置为 DEBUG 级别以捕获调试信息
+    level=logging.DEBUG,
     format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[logging.StreamHandler()]  # 输出到控制台
 )
 
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)  # 单独设置为 DEBUG 级别
 
 class ModelTrainer:
     def __init__(self, config=None):
@@ -35,6 +40,11 @@ class ModelTrainer:
             #"test_file_encoding": "utf-8",
             "model_file": "anomaly_detection_model.pkl"
         }
+        
+        self.trani_features = ["用户编码", "登录地址", "登录失败次数", "登录成功率", "时间范围分钟", "每分钟失败比例", "连续失败3次"]
+        
+        #self.trani_features = ["登录失败次数", "登录成功率", "时间范围分钟", "每分钟失败比例", "连续失败3次"]
+        
         self.config = {**default_config, **(config or {})}
         self.data_dir = self.config["data_dir"]
         self.conf_dir = self.config["conf_dir"]
@@ -71,17 +81,6 @@ class ModelTrainer:
                 raise FileNotFoundError(f"默认数据文件 {self.default_data_file_path} 不存在，请上传文件或检查配置。")
             self.train_data_file = self.default_data_file_path
             logging.info(f"使用默认训练数据文件：{self.train_data_file}")
-
-        # 加载规则配置
-        # if rule_conf is None:
-        #     if not os.path.exists(self.default_rule_conf_path):
-        #         raise FileNotFoundError(f"默认规则文件 {self.default_rule_conf_path} 不存在，请检查配置。")
-        #     with open(self.default_rule_conf_path, "r", encoding="utf-8") as f:
-        #         self.rule_conf = json.load(f)
-        #     logging.info(f"加载默认规则配置：{self.default_rule_conf_path}")
-        # else:
-        #     self.rule_conf = rule_conf
-        #     logging.info("使用上传的规则配置。")
     
     def load_train_data(self, data_file_type, data_file):
         """
@@ -110,7 +109,7 @@ class ModelTrainer:
         # 检查空值并填充
         if df.isnull().sum().sum() > 0:
             logging.warning(f"原始数据中存在空值，进行填充处理。\n空值统计:\n{df.isnull().sum()}")
-            df.fillna(value={"登录时间": pd.NaT, "登录结果": "unknown", "用户ID": "unknown_user", "登录地址": "0.0.0.0"}, inplace=True)
+            df.fillna(value={"登录时间": pd.NaT, "登录结果": "failure", "用户ID": "unknown_user", "登录地址": "0.0.0.0"}, inplace=True)
 
         # 转换登录时间
         df["登录时间"] = pd.to_datetime(df["登录时间"], errors="coerce")
@@ -119,7 +118,10 @@ class ModelTrainer:
             df["登录时间"].fillna(df["登录时间"].min(), inplace=True)
 
         # 将登录结果转换为数值
-        df["登录结果"] = df["登录结果"].apply(lambda x: 1 if x == "success" else 0 if x == "failure" else -1)
+        df["登录结果"] = df["登录结果"].apply(lambda x: 1 if x == "success" else 0)
+        
+        
+        df["登录地址"] = df["登录地址"].apply(ip_to_int)
 
         # 计算登录失败次数
         df["登录失败次数"] = df.groupby("用户ID")["登录结果"].transform(lambda x: (x == 0).sum())
@@ -158,6 +160,9 @@ class ModelTrainer:
         # 对用户ID进行编码
         encoder = LabelEncoder()
         df["用户编码"] = encoder.fit_transform(df["用户ID"])
+        
+        # user_encoding = pd.get_dummies(df['用户ID'], prefix='用户编码')
+        # df = pd.concat([df, user_encoding], axis=1)
 
         # 检查非数值列是否仍有异常值
         non_numeric_columns = df.select_dtypes(include=["object"]).columns
@@ -181,7 +186,7 @@ class ModelTrainer:
         """
         logging.info("开始训练异常检测模型...")
 
-        X = df[["登录失败次数", "登录成功率", "时间范围分钟", "每分钟失败比例", "连续失败3次"]]
+        X = df[self.trani_features]
         
         print(X)
         
@@ -199,8 +204,10 @@ class ModelTrainer:
         X_train, X_test, y_train, y_test = train_test_split(X, y, 
                                    test_size=0.2, random_state=0)
 
-        from sklearn.linear_model import LinearRegression # 导入线性回归算法模型
-        model = LinearRegression() # 使用线性回归算法创建模型
+        #from sklearn.linear_model import LinearRegression # 导入线性回归算法模型
+        from sklearn.ensemble import RandomForestClassifier
+        model = RandomForestClassifier(n_estimators=100, random_state=42)
+        #model = LinearRegression() # 使用线性回归算法创建模型
 
         model.fit(X_train, y_train) # 用训练集数据，训练机器，拟合函数，确定参数
 
@@ -226,14 +233,24 @@ class ModelTrainer:
             logging.info("将异常类型从字符串映射为数值...")
             # 创建映射表
             unique_types = df["异常类型"].dropna().unique()
-            type_to_id_map = {idx + 1: t for idx, t in enumerate(unique_types)} 
+            logging.info(f"异常类型列包含的唯一类型：: {unique_types}")
+            unique_types = [t for t in unique_types if t != "正常"]  # 排除"正常"类型
+            type_to_id_map = {0: "正常"}  # "正常" 映射为 0
+            type_to_id_map.update({idx + 1: t for idx, t in enumerate(unique_types)})  # 为其他类型分配 ID
             logging.info(f"异常类型映射表: {type_to_id_map}")
             
             # 映射异常类型
-            df["异常类型编码"] = df["异常类型"].map({v: k for k, v in type_to_id_map.items()}).fillna(0).astype(int)  # 正常登录映射为0
+            #df["异常类型编码"] = df["异常类型"].map(type_to_id_map).fillna(-1).astype(int)  # 将无法匹配的类型映射为 -1
+            df["异常类型编码"] = df["异常类型"].apply(lambda x: next((k for k, v in type_to_id_map.items() if v == x), -1))
+            tag_unique_types = df["异常类型编码"].dropna().unique()
+            logging.info(f"异常类型编码列包含的唯一类型：: {tag_unique_types}")
             
-            # type_to_id_map_json = json.dumps(type_to_id_map, ensure_ascii=False, indent=4)
-            # logging.info(f"JSON 格式异常类型映射表:\n{type_to_id_map}")
+            if '异常类型编码' in df.columns:
+                logging.info("异常类型编码列已成功创建。")
+            else:
+                logging.error("异常类型编码列未成功创建，请检查映射逻辑。")
+        else:
+            logging.error("数据中未找到 '异常类型' 列，请检查数据处理流程。")
         
         return df,type_to_id_map
      
@@ -250,7 +267,7 @@ class ModelTrainer:
     #     logging.info("异常检测结果合并完成")
     #     return df
 
-    def visualize_anomalies(self, df):
+    def visualize_anomalies(self, df, tran_type):
         """
         绘制按异常类型分类的统计结果
         """
@@ -265,17 +282,13 @@ class ModelTrainer:
         logging.debug(f"异常类型统计:\n{anomaly_counts}")
 
         # 统计正常登录数量
-        normal_count = len(df[df["是否异常"] == 0])
+        #normal_count = len(df[df["是否异常"] == 0])
+        normal_count = len(df[df["异常类型"] == "正常"])
+        
+        non_normal_count = len(df) - normal_count
+        
         logging.debug(f"正常登录记录数: {normal_count}")
         
-        # 如果 "正常" 存在于异常类型中，避免重复统计
-        if "正常" in anomaly_counts.index:
-            anomaly_counts["正常"] += normal_count
-            logging.info(f"'正常' 数据已存在于异常类型统计中，更新后的 '正常' 数量: {anomaly_counts['正常']}")
-        else:
-            anomaly_counts = pd.concat([anomaly_counts, pd.Series({"正常": normal_count})])
-            logging.info(f"'正常' 数据未在异常类型统计中，新增 '正常' 数据，数量: {normal_count}")
-
 
         computed_total = anomaly_counts.sum()
         if computed_total != total_count:
@@ -284,7 +297,7 @@ class ModelTrainer:
             logging.info(f"统计结果总数与记录总数一致: {computed_total}")
         
         # 合并正常登录和异常类型统计
-        all_ratios = anomaly_counts / total_count * 100
+        all_ratios = non_normal_count / total_count * 100
         logging.debug(f"异常类型占比:\n{all_ratios}")
 
         # 绘制饼图
@@ -322,7 +335,8 @@ class ModelTrainer:
         plt.title("登录行为分布", fontproperties=my_font, fontsize=14)
 
         # 保存图表
-        plot_file_path = os.path.join(self.data_dir, "anomalies_plot.png")
+        timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+        plot_file_path = os.path.join(self.data_dir, f"anomalies_plot_{timestamp}.png")
         plt.savefig(plot_file_path, format="png", bbox_inches="tight", dpi=300)
         
         logging.info(f"饼图已保存到文件: {plot_file_path}")
@@ -331,15 +345,15 @@ class ModelTrainer:
         plt.show()
 
         # 保存异常记录到文件
-        anomalies = df[df["是否异常"] == 1]
-        anomalies_file_path = os.path.join(self.data_dir, "anomalies.csv")
-        anomalies.to_csv(anomalies_file_path, index=False, encoding=self.config["data_file_encoding"])
+        #anomalies = df[df["是否异常"] == 1]
+        anomalies_file_path = os.path.join(self.data_dir, f"anomalies_{tran_type}.csv")
+        df.to_csv(anomalies_file_path, index=False, encoding=self.config["data_file_encoding"])
         logging.info(f"异常记录已保存到文件: {anomalies_file_path}")
 
         logging.info("\n检测到的异常登录记录：")
-        logging.info(anomalies[["用户ID", "登录时间", "登录地址", "登录资源", "登录失败次数", "登录成功率", "异常类型"]].head(10))
+        logging.info(df[["用户ID", "登录时间", "登录地址", "登录资源", "登录失败次数", "登录成功率", "异常类型"]].head(10))
 
-        return anomalies_file_path, anomalies, plot_file_path
+        return anomalies_file_path, df, plot_file_path
 
      
 
@@ -409,8 +423,7 @@ class ModelTrainer:
         pre_df = self.preprocess_data(df)
         
         # 提取特征
-        features = ["登录失败次数", "登录成功率", "时间范围分钟", "每分钟失败比例", "连续失败3次"]
-        X_test = pre_df[features]
+        X_test = pre_df[self.trani_features]
 
         # 加载训练好的模型
         
@@ -420,26 +433,37 @@ class ModelTrainer:
 
         # 使用模型进行预测
         pre_df["异常类型编码"] = model.predict(X_test)
+        
         logging.info("模型预测完成。")
 
         pre_df["异常类型编码"] = pre_df["异常类型编码"].round().astype(int)
+        
+        unique_types2 = pre_df["异常类型编码"].dropna().unique()
+        
+        logging.info(f"预测异常类型编码2:{unique_types2}")
         
         # 将异常类型编码映射为对应的文本描述，未匹配的编码显示为 "未知"
         pre_df["异常类型"] = pre_df["异常类型编码"].apply(
             lambda x: anomalies_map.get(str(x), "未知")
         )
+        
+        unique_types2 = pre_df["异常类型"].dropna().unique()
+        
+        logging.info(f"预测异常类型2:{unique_types2}")
+        
         logging.info("异常类型映射完成。")
         
         summary_predict = pre_df.head(10)
+        
+        anomalies_file_path, anomalies, plot_file_path = self.visualize_anomalies(pre_df, "pre")
 
         # 保存预测结果到 CSV 文件
         output_file = "predicted_results.csv"
         pre_df.to_csv(output_file, index=False, encoding=self.config["data_file_encoding"])
         logging.info(f"预测结果已保存到 {output_file}")
 
-        return output_file, summary_predict
+        return output_file, summary_predict, plot_file_path
 
-        
         
           
     def train(self, uploaded_file=None, rules_input=None):
@@ -473,8 +497,8 @@ class ModelTrainer:
             logging.info(f"异常类型映射生成完成：{type_to_id_map}")
 
             # 5. 可视化异常数据
-            anomalies_file_path, anomalies, plot_file_path = self.visualize_anomalies(tag_df)
-            summar_anomalie = anomalies[["用户ID", "登录时间", "登录地址", "登录资源", "登录结果", "登录失败次数", "登录成功率", "异常类型"]].head(100)
+            anomalies_file_path, anomalies, plot_file_path = self.visualize_anomalies(tag_df, "train")
+            summar_anomalie = anomalies[["用户ID", "登录时间", "登录地址", "登录资源", "登录结果", "登录失败次数", "登录成功率", "异常类型", "异常类型编码"]].head(100)
 
             logging.info(f"异常数据文件已保存：{anomalies_file_path}")
             logging.info(f"异常统计图表已保存：{plot_file_path}")

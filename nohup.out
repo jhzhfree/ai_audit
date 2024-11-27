@@ -9793,3 +9793,469 @@ tornado.websocket.WebSocketClosedError
 [I 2024-11-26 09:03:57.431 ServerApp] Saving file at /test.ipynb
 [I 2024-11-26 09:13:23.895 ServerApp] Saving file at /test.ipynb
 [I 2024-11-26 09:15:24.012 ServerApp] Saving file at /test.ipynb
+[I 2024-11-27 07:25:25.392 ServerApp] Starting buffering for 4da74c2c-f071-4f7c-9f08-af4b33f25e1f:81e5a456-cb5e-4036-9767-d0aa50b21c59
+[I 2024-11-27 07:25:25.394 ServerApp] Starting buffering for 840ca30f-2512-4c4b-a401-0c1d47d47ea6:57684f5e-0114-43f6-98d5-bc6351c9b754
+[I 2024-11-27 07:25:25.394 ServerApp] Starting buffering for 5ed268a9-76d9-4f84-b2b7-e22b703ebb59:740ebc29-dda7-4035-93cd-bb6f54de1985
+[I 2024-11-27 07:25:25.807 ServerApp] Connecting to kernel 899bf578-e0bd-410d-85ca-fdf01b209da7.
+[I 2024-11-27 07:25:26.070 ServerApp] Connecting to kernel 840ca30f-2512-4c4b-a401-0c1d47d47ea6.
+[I 2024-11-27 07:25:26.070 ServerApp] Restoring connection for 840ca30f-2512-4c4b-a401-0c1d47d47ea6:57684f5e-0114-43f6-98d5-bc6351c9b754
+[I 2024-11-27 07:25:26.071 ServerApp] Connecting to kernel 9a848ef4-d289-4499-b1f3-bcc639e9fb44.
+[I 2024-11-27 07:25:26.075 ServerApp] Connecting to kernel e48e6373-4079-402a-bdb5-60680b3d9654.
+[I 2024-11-27 07:25:26.076 ServerApp] Connecting to kernel 4da74c2c-f071-4f7c-9f08-af4b33f25e1f.
+[I 2024-11-27 07:25:26.076 ServerApp] Restoring connection for 4da74c2c-f071-4f7c-9f08-af4b33f25e1f:81e5a456-cb5e-4036-9767-d0aa50b21c59
+[I 2024-11-27 07:25:26.076 ServerApp] Connecting to kernel 5ed268a9-76d9-4f84-b2b7-e22b703ebb59.
+[I 2024-11-27 07:25:26.076 ServerApp] Restoring connection for 5ed268a9-76d9-4f84-b2b7-e22b703ebb59:740ebc29-dda7-4035-93cd-bb6f54de1985
+[I 2024-11-27 07:25:26.077 ServerApp] Connecting to kernel e048d8d3-7e1b-47fb-8c79-84e86ad77766.
+[I 2024-11-27 07:25:26.091 ServerApp] Connecting to kernel 631693ed-86c0-458e-b255-ee94ffa4fd00.
+[I 2024-11-27 07:25:26.092 ServerApp] Connecting to kernel 966dbd1f-bd42-4529-91ec-4e76e9b18d06.
+[I 2024-11-27 07:25:26.093 ServerApp] Connecting to kernel fe6e8fd3-5dac-4d0b-b75a-6b7f1b715e52.
+[W 2024-11-27 07:52:23.923 ServerApp] Replacing stale connection: e048d8d3-7e1b-47fb-8c79-84e86ad77766:b00f561f-6a0a-420c-a711-5874bdc33899
+[I 2024-11-27 07:52:23.923 ServerApp] Connecting to kernel e048d8d3-7e1b-47fb-8c79-84e86ad77766.
+[W 2024-11-27 07:52:23.925 ServerApp] Replacing stale connection: 9a848ef4-d289-4499-b1f3-bcc639e9fb44:d863182a-3442-4a4a-944d-09d9f94dfe42
+[W 2024-11-27 07:52:23.926 ServerApp] Replacing stale connection: e48e6373-4079-402a-bdb5-60680b3d9654:abace5f3-2323-4b25-bade-50260f003a71
+[W 2024-11-27 07:52:23.926 ServerApp] Replacing stale connection: 5ed268a9-76d9-4f84-b2b7-e22b703ebb59:740ebc29-dda7-4035-93cd-bb6f54de1985
+[I 2024-11-27 07:52:23.927 ServerApp] Connecting to kernel 9a848ef4-d289-4499-b1f3-bcc639e9fb44.
+[I 2024-11-27 07:52:23.928 ServerApp] Connecting to kernel e48e6373-4079-402a-bdb5-60680b3d9654.
+[I 2024-11-27 07:52:23.929 ServerApp] Connecting to kernel 5ed268a9-76d9-4f84-b2b7-e22b703ebb59.
+[W 2024-11-27 07:52:23.930 ServerApp] 
+[W 2024-11-27 07:52:23.931 ServerApp] 
+[W 2024-11-27 07:52:23.932 ServerApp] 
+[W 2024-11-27 07:52:23.932 ServerApp] 
+[W 2024-11-27 07:52:23.933 ServerApp] 
+[W 2024-11-27 07:52:23.933 ServerApp] 
+[W 2024-11-27 07:52:23.934 ServerApp] 
+[W 2024-11-27 07:52:23.935 ServerApp] 
+[W 2024-11-27 07:52:23.935 ServerApp] 
+[W 2024-11-27 07:52:23.935 ServerApp] 
+[W 2024-11-27 07:52:23.936 ServerApp] 
+[W 2024-11-27 07:52:23.936 ServerApp] 
+[W 2024-11-27 07:52:23.937 ServerApp] 
+[W 2024-11-27 07:52:23.937 ServerApp] 
+[W 2024-11-27 07:52:23.938 ServerApp] 
+[W 2024-11-27 07:52:23.938 ServerApp] 
+[W 2024-11-27 07:52:23.941 ServerApp] Replacing stale connection: 631693ed-86c0-458e-b255-ee94ffa4fd00:ad02e9a1-1fd7-45d9-b328-29a95e66fbdd
+[I 2024-11-27 07:52:23.942 ServerApp] Connecting to kernel 631693ed-86c0-458e-b255-ee94ffa4fd00.
+[W 2024-11-27 07:52:23.945 ServerApp] 
+[W 2024-11-27 07:52:23.945 ServerApp] 
+[W 2024-11-27 07:52:23.946 ServerApp] 
+[W 2024-11-27 07:52:23.946 ServerApp] 
+[W 2024-11-27 07:52:23.961 ServerApp] Replacing stale connection: 966dbd1f-bd42-4529-91ec-4e76e9b18d06:dddf3771-c76f-41a0-b1d4-7286aa1ddc62
+[I 2024-11-27 07:52:23.961 ServerApp] Connecting to kernel 966dbd1f-bd42-4529-91ec-4e76e9b18d06.
+[W 2024-11-27 07:52:23.963 ServerApp] Replacing stale connection: fe6e8fd3-5dac-4d0b-b75a-6b7f1b715e52:8b962f41-8cb1-486c-9dd6-f1c62a1b86eb
+[W 2024-11-27 07:52:23.964 ServerApp] 
+[I 2024-11-27 07:52:23.964 ServerApp] Connecting to kernel fe6e8fd3-5dac-4d0b-b75a-6b7f1b715e52.
+[W 2024-11-27 07:52:23.965 ServerApp] 
+[W 2024-11-27 07:52:23.966 ServerApp] 
+[W 2024-11-27 07:52:23.966 ServerApp] 
+[W 2024-11-27 07:52:23.968 ServerApp] 
+[W 2024-11-27 07:52:23.968 ServerApp] 
+[W 2024-11-27 07:52:23.969 ServerApp] Replacing stale connection: 840ca30f-2512-4c4b-a401-0c1d47d47ea6:57684f5e-0114-43f6-98d5-bc6351c9b754
+[W 2024-11-27 07:52:23.970 ServerApp] 
+[I 2024-11-27 07:52:23.970 ServerApp] Connecting to kernel 840ca30f-2512-4c4b-a401-0c1d47d47ea6.
+[W 2024-11-27 07:52:23.971 ServerApp] 
+[W 2024-11-27 07:52:23.973 ServerApp] 
+[W 2024-11-27 07:52:23.973 ServerApp] 
+[W 2024-11-27 07:52:23.974 ServerApp] 
+[W 2024-11-27 07:52:23.975 ServerApp] 
+[W 2024-11-27 07:52:23.975 ServerApp] 
+[W 2024-11-27 07:52:23.976 ServerApp] 
+[W 2024-11-27 07:52:23.977 ServerApp] Replacing stale connection: 4da74c2c-f071-4f7c-9f08-af4b33f25e1f:81e5a456-cb5e-4036-9767-d0aa50b21c59
+[W 2024-11-27 07:52:23.977 ServerApp] Replacing stale connection: 899bf578-e0bd-410d-85ca-fdf01b209da7:7b875b6d-67a2-49ac-bfdf-7772b0b3ab52
+[I 2024-11-27 07:52:23.978 ServerApp] Connecting to kernel 4da74c2c-f071-4f7c-9f08-af4b33f25e1f.
+[I 2024-11-27 07:52:23.978 ServerApp] Connecting to kernel 899bf578-e0bd-410d-85ca-fdf01b209da7.
+[W 2024-11-27 07:52:23.981 ServerApp] 
+[W 2024-11-27 07:52:23.982 ServerApp] 
+[W 2024-11-27 07:52:23.982 ServerApp] 
+[W 2024-11-27 07:52:23.983 ServerApp] 
+[W 2024-11-27 07:52:23.983 ServerApp] 
+[W 2024-11-27 07:52:23.984 ServerApp] 
+[W 2024-11-27 07:52:23.984 ServerApp] 
+[W 2024-11-27 07:52:23.985 ServerApp] 
+[W 2024-11-27 07:52:23.986 ServerApp] 
+[W 2024-11-27 07:52:23.986 ServerApp] 
+[W 2024-11-27 07:52:23.986 ServerApp] 
+[W 2024-11-27 07:52:23.987 ServerApp] 
+[W 2024-11-27 07:52:23.987 ServerApp] 
+[W 2024-11-27 07:52:23.988 ServerApp] 
+[W 2024-11-27 07:52:23.989 ServerApp] 
+[W 2024-11-27 07:52:23.989 ServerApp] 
+[W 2024-11-27 07:52:23.990 ServerApp] 
+[W 2024-11-27 07:52:23.990 ServerApp] 
+[W 2024-11-27 07:52:23.991 ServerApp] 
+[W 2024-11-27 07:52:23.992 ServerApp] 
+[W 2024-11-27 07:52:23.993 ServerApp] 
+[W 2024-11-27 07:52:23.994 ServerApp] 
+[W 2024-11-27 07:52:23.995 ServerApp] 
+[W 2024-11-27 07:52:23.996 ServerApp] 
+[W 2024-11-27 07:52:23.996 ServerApp] 
+[W 2024-11-27 07:52:23.996 ServerApp] 
+[W 2024-11-27 07:54:38.701 ServerApp] Replacing stale connection: e48e6373-4079-402a-bdb5-60680b3d9654:abace5f3-2323-4b25-bade-50260f003a71
+[W 2024-11-27 07:54:38.702 ServerApp] Replacing stale connection: 899bf578-e0bd-410d-85ca-fdf01b209da7:7b875b6d-67a2-49ac-bfdf-7772b0b3ab52
+[I 2024-11-27 07:54:38.702 ServerApp] Connecting to kernel e48e6373-4079-402a-bdb5-60680b3d9654.
+[I 2024-11-27 07:54:38.703 ServerApp] Connecting to kernel 899bf578-e0bd-410d-85ca-fdf01b209da7.
+[W 2024-11-27 07:54:38.705 ServerApp] Replacing stale connection: 5ed268a9-76d9-4f84-b2b7-e22b703ebb59:740ebc29-dda7-4035-93cd-bb6f54de1985
+[W 2024-11-27 07:54:38.705 ServerApp] Replacing stale connection: fe6e8fd3-5dac-4d0b-b75a-6b7f1b715e52:8b962f41-8cb1-486c-9dd6-f1c62a1b86eb
+[I 2024-11-27 07:54:38.706 ServerApp] Connecting to kernel 5ed268a9-76d9-4f84-b2b7-e22b703ebb59.
+[I 2024-11-27 07:54:38.708 ServerApp] Connecting to kernel fe6e8fd3-5dac-4d0b-b75a-6b7f1b715e52.
+[W 2024-11-27 07:54:38.709 ServerApp] Replacing stale connection: 4da74c2c-f071-4f7c-9f08-af4b33f25e1f:81e5a456-cb5e-4036-9767-d0aa50b21c59
+[W 2024-11-27 07:54:38.710 ServerApp] Replacing stale connection: 966dbd1f-bd42-4529-91ec-4e76e9b18d06:dddf3771-c76f-41a0-b1d4-7286aa1ddc62
+[W 2024-11-27 07:54:38.710 ServerApp] Replacing stale connection: 9a848ef4-d289-4499-b1f3-bcc639e9fb44:d863182a-3442-4a4a-944d-09d9f94dfe42
+[W 2024-11-27 07:54:38.711 ServerApp] 
+[W 2024-11-27 07:54:38.712 ServerApp] 
+[I 2024-11-27 07:54:38.712 ServerApp] Connecting to kernel 4da74c2c-f071-4f7c-9f08-af4b33f25e1f.
+[I 2024-11-27 07:54:38.713 ServerApp] Connecting to kernel 966dbd1f-bd42-4529-91ec-4e76e9b18d06.
+[I 2024-11-27 07:54:38.714 ServerApp] Connecting to kernel 9a848ef4-d289-4499-b1f3-bcc639e9fb44.
+[W 2024-11-27 07:54:38.715 ServerApp] 
+[W 2024-11-27 07:54:38.716 ServerApp] 
+[W 2024-11-27 07:54:38.716 ServerApp] 
+[W 2024-11-27 07:54:38.717 ServerApp] Replacing stale connection: 840ca30f-2512-4c4b-a401-0c1d47d47ea6:57684f5e-0114-43f6-98d5-bc6351c9b754
+[W 2024-11-27 07:54:38.718 ServerApp] Replacing stale connection: e048d8d3-7e1b-47fb-8c79-84e86ad77766:b00f561f-6a0a-420c-a711-5874bdc33899
+[W 2024-11-27 07:54:38.718 ServerApp] 
+[W 2024-11-27 07:54:38.718 ServerApp] 
+[W 2024-11-27 07:54:38.719 ServerApp] 
+[W 2024-11-27 07:54:38.720 ServerApp] 
+[W 2024-11-27 07:54:38.720 ServerApp] 
+[W 2024-11-27 07:54:38.721 ServerApp] 
+[W 2024-11-27 07:54:38.722 ServerApp] 
+[I 2024-11-27 07:54:38.722 ServerApp] Connecting to kernel 840ca30f-2512-4c4b-a401-0c1d47d47ea6.
+[I 2024-11-27 07:54:38.723 ServerApp] Connecting to kernel e048d8d3-7e1b-47fb-8c79-84e86ad77766.
+[W 2024-11-27 07:54:38.724 ServerApp] 
+[W 2024-11-27 07:54:38.725 ServerApp] 
+[W 2024-11-27 07:54:38.726 ServerApp] 
+[W 2024-11-27 07:54:38.726 ServerApp] 
+[W 2024-11-27 07:54:38.727 ServerApp] 
+[W 2024-11-27 07:54:38.727 ServerApp] 
+[W 2024-11-27 07:54:38.728 ServerApp] 
+[W 2024-11-27 07:54:38.729 ServerApp] 
+[W 2024-11-27 07:54:38.729 ServerApp] 
+[W 2024-11-27 07:54:38.729 ServerApp] 
+[W 2024-11-27 07:54:38.731 ServerApp] 
+[W 2024-11-27 07:54:38.732 ServerApp] 
+[W 2024-11-27 07:54:38.732 ServerApp] 
+[W 2024-11-27 07:54:38.732 ServerApp] 
+[W 2024-11-27 07:54:38.733 ServerApp] 
+[W 2024-11-27 07:54:38.734 ServerApp] 
+[W 2024-11-27 07:54:38.735 ServerApp] 
+[W 2024-11-27 07:54:38.735 ServerApp] 
+[W 2024-11-27 07:54:38.736 ServerApp] Replacing stale connection: 631693ed-86c0-458e-b255-ee94ffa4fd00:ad02e9a1-1fd7-45d9-b328-29a95e66fbdd
+[W 2024-11-27 07:54:38.737 ServerApp] 
+[W 2024-11-27 07:54:38.737 ServerApp] 
+[W 2024-11-27 07:54:38.738 ServerApp] 
+[W 2024-11-27 07:54:38.739 ServerApp] 
+[W 2024-11-27 07:54:38.739 ServerApp] 
+[W 2024-11-27 07:54:38.740 ServerApp] 
+[W 2024-11-27 07:54:38.740 ServerApp] 
+[W 2024-11-27 07:54:38.741 ServerApp] 
+[I 2024-11-27 07:54:38.741 ServerApp] Connecting to kernel 631693ed-86c0-458e-b255-ee94ffa4fd00.
+[W 2024-11-27 07:54:38.743 ServerApp] 
+[W 2024-11-27 07:54:38.743 ServerApp] 
+[W 2024-11-27 07:54:38.744 ServerApp] 
+[W 2024-11-27 07:54:38.744 ServerApp] 
+[W 2024-11-27 07:54:38.744 ServerApp] 
+[W 2024-11-27 07:54:38.745 ServerApp] 
+[W 2024-11-27 07:54:38.746 ServerApp] 
+[W 2024-11-27 07:54:38.746 ServerApp] 
+[W 2024-11-27 07:54:38.747 ServerApp] 
+[W 2024-11-27 07:54:38.747 ServerApp] 
+[W 2024-11-27 07:54:38.748 ServerApp] 
+[W 2024-11-27 07:54:38.748 ServerApp] 
+[W 2024-11-27 07:54:38.750 ServerApp] 
+[W 2024-11-27 07:54:38.751 ServerApp] 
+[W 2024-11-27 07:54:38.751 ServerApp] 
+[W 2024-11-27 07:54:38.752 ServerApp] 
+[W 2024-11-27 07:54:38.752 ServerApp] 
+[W 2024-11-27 07:54:38.753 ServerApp] 
+[W 2024-11-27 07:54:38.754 ServerApp] 
+[W 2024-11-27 07:54:38.754 ServerApp] 
+[W 2024-11-27 07:54:38.756 ServerApp] 
+[W 2024-11-27 07:54:38.756 ServerApp] 
+[W 2024-11-27 08:10:20.635 ServerApp] Replacing stale connection: 631693ed-86c0-458e-b255-ee94ffa4fd00:ad02e9a1-1fd7-45d9-b328-29a95e66fbdd
+[I 2024-11-27 08:10:20.636 ServerApp] Connecting to kernel 631693ed-86c0-458e-b255-ee94ffa4fd00.
+[W 2024-11-27 08:10:20.638 ServerApp] Replacing stale connection: e048d8d3-7e1b-47fb-8c79-84e86ad77766:b00f561f-6a0a-420c-a711-5874bdc33899
+[W 2024-11-27 08:10:20.638 ServerApp] Replacing stale connection: e48e6373-4079-402a-bdb5-60680b3d9654:abace5f3-2323-4b25-bade-50260f003a71
+[W 2024-11-27 08:10:20.639 ServerApp] Replacing stale connection: 5ed268a9-76d9-4f84-b2b7-e22b703ebb59:740ebc29-dda7-4035-93cd-bb6f54de1985
+[W 2024-11-27 08:10:20.640 ServerApp] Replacing stale connection: 4da74c2c-f071-4f7c-9f08-af4b33f25e1f:81e5a456-cb5e-4036-9767-d0aa50b21c59
+[I 2024-11-27 08:10:20.640 ServerApp] Connecting to kernel e048d8d3-7e1b-47fb-8c79-84e86ad77766.
+[I 2024-11-27 08:10:20.642 ServerApp] Connecting to kernel e48e6373-4079-402a-bdb5-60680b3d9654.
+[I 2024-11-27 08:10:20.643 ServerApp] Connecting to kernel 5ed268a9-76d9-4f84-b2b7-e22b703ebb59.
+[I 2024-11-27 08:10:20.644 ServerApp] Connecting to kernel 4da74c2c-f071-4f7c-9f08-af4b33f25e1f.
+[W 2024-11-27 08:10:20.645 ServerApp] 
+[W 2024-11-27 08:10:20.646 ServerApp] 
+[W 2024-11-27 08:10:20.647 ServerApp] 
+[W 2024-11-27 08:10:20.648 ServerApp] 
+[W 2024-11-27 08:10:20.648 ServerApp] Replacing stale connection: 966dbd1f-bd42-4529-91ec-4e76e9b18d06:dddf3771-c76f-41a0-b1d4-7286aa1ddc62
+[W 2024-11-27 08:10:20.649 ServerApp] Replacing stale connection: 899bf578-e0bd-410d-85ca-fdf01b209da7:7b875b6d-67a2-49ac-bfdf-7772b0b3ab52
+[W 2024-11-27 08:10:20.650 ServerApp] Replacing stale connection: 840ca30f-2512-4c4b-a401-0c1d47d47ea6:57684f5e-0114-43f6-98d5-bc6351c9b754
+[W 2024-11-27 08:10:20.650 ServerApp] 
+[W 2024-11-27 08:10:20.651 ServerApp] 
+[W 2024-11-27 08:10:20.651 ServerApp] 
+[W 2024-11-27 08:10:20.652 ServerApp] 
+[W 2024-11-27 08:10:20.652 ServerApp] 
+[W 2024-11-27 08:10:20.652 ServerApp] 
+[I 2024-11-27 08:10:20.653 ServerApp] Connecting to kernel 966dbd1f-bd42-4529-91ec-4e76e9b18d06.
+[I 2024-11-27 08:10:20.654 ServerApp] Connecting to kernel 899bf578-e0bd-410d-85ca-fdf01b209da7.
+[I 2024-11-27 08:10:20.655 ServerApp] Connecting to kernel 840ca30f-2512-4c4b-a401-0c1d47d47ea6.
+[W 2024-11-27 08:10:20.656 ServerApp] 
+[W 2024-11-27 08:10:20.656 ServerApp] 
+[W 2024-11-27 08:10:20.656 ServerApp] 
+[W 2024-11-27 08:10:20.657 ServerApp] 
+[W 2024-11-27 08:10:20.657 ServerApp] 
+[W 2024-11-27 08:10:20.658 ServerApp] 
+[W 2024-11-27 08:10:20.658 ServerApp] 
+[W 2024-11-27 08:10:20.658 ServerApp] 
+[W 2024-11-27 08:10:20.660 ServerApp] 
+[W 2024-11-27 08:10:20.660 ServerApp] 
+[W 2024-11-27 08:10:20.662 ServerApp] 
+[W 2024-11-27 08:10:20.662 ServerApp] 
+[W 2024-11-27 08:10:20.663 ServerApp] 
+[W 2024-11-27 08:10:20.663 ServerApp] 
+[W 2024-11-27 08:10:20.664 ServerApp] 
+[W 2024-11-27 08:10:20.664 ServerApp] 
+[W 2024-11-27 08:10:20.665 ServerApp] 
+[W 2024-11-27 08:10:20.665 ServerApp] 
+[W 2024-11-27 08:10:20.666 ServerApp] 
+[W 2024-11-27 08:10:20.666 ServerApp] 
+[W 2024-11-27 08:10:20.666 ServerApp] 
+[W 2024-11-27 08:10:20.667 ServerApp] 
+[W 2024-11-27 08:10:20.702 ServerApp] 
+[W 2024-11-27 08:10:20.703 ServerApp] 
+[W 2024-11-27 08:10:20.721 ServerApp] Replacing stale connection: 9a848ef4-d289-4499-b1f3-bcc639e9fb44:d863182a-3442-4a4a-944d-09d9f94dfe42
+[W 2024-11-27 08:10:20.721 ServerApp] Replacing stale connection: fe6e8fd3-5dac-4d0b-b75a-6b7f1b715e52:8b962f41-8cb1-486c-9dd6-f1c62a1b86eb
+[I 2024-11-27 08:10:20.722 ServerApp] Connecting to kernel 9a848ef4-d289-4499-b1f3-bcc639e9fb44.
+[I 2024-11-27 08:10:20.723 ServerApp] Connecting to kernel fe6e8fd3-5dac-4d0b-b75a-6b7f1b715e52.
+[W 2024-11-27 08:10:20.725 ServerApp] 
+[W 2024-11-27 08:10:20.725 ServerApp] 
+[W 2024-11-27 08:10:20.726 ServerApp] 
+[W 2024-11-27 08:10:20.726 ServerApp] 
+[W 2024-11-27 08:10:20.726 ServerApp] 
+[W 2024-11-27 08:10:20.727 ServerApp] 
+[W 2024-11-27 08:10:20.727 ServerApp] 
+[W 2024-11-27 08:10:20.728 ServerApp] 
+[W 2024-11-27 08:10:20.758 ServerApp] 
+[W 2024-11-27 08:10:20.758 ServerApp] 
+[W 2024-11-27 08:10:20.800 ServerApp] 
+[W 2024-11-27 08:10:20.800 ServerApp] 
+[W 2024-11-27 08:10:20.801 ServerApp] 
+[W 2024-11-27 08:10:20.801 ServerApp] 
+[W 2024-11-27 08:10:20.807 ServerApp] 
+[W 2024-11-27 08:10:20.807 ServerApp] 
+[W 2024-11-27 08:10:20.822 ServerApp] 
+[W 2024-11-27 08:10:20.822 ServerApp] 
+[W 2024-11-27 08:10:20.823 ServerApp] 
+[W 2024-11-27 08:10:20.823 ServerApp] 
+[W 2024-11-27 08:10:20.840 ServerApp] 
+[W 2024-11-27 08:10:20.841 ServerApp] 
+[W 2024-11-27 08:10:20.876 ServerApp] 
+[W 2024-11-27 08:10:20.876 ServerApp] 
+[W 2024-11-27 08:10:20.877 ServerApp] 
+[W 2024-11-27 08:10:20.878 ServerApp] 
+[W 2024-11-27 08:11:32.940 ServerApp] Replacing stale connection: 631693ed-86c0-458e-b255-ee94ffa4fd00:ad02e9a1-1fd7-45d9-b328-29a95e66fbdd
+[W 2024-11-27 08:11:32.940 ServerApp] Replacing stale connection: 4da74c2c-f071-4f7c-9f08-af4b33f25e1f:81e5a456-cb5e-4036-9767-d0aa50b21c59
+[W 2024-11-27 08:11:32.941 ServerApp] Replacing stale connection: e48e6373-4079-402a-bdb5-60680b3d9654:abace5f3-2323-4b25-bade-50260f003a71
+[W 2024-11-27 08:11:32.941 ServerApp] Replacing stale connection: fe6e8fd3-5dac-4d0b-b75a-6b7f1b715e52:8b962f41-8cb1-486c-9dd6-f1c62a1b86eb
+[W 2024-11-27 08:11:32.942 ServerApp] Replacing stale connection: 5ed268a9-76d9-4f84-b2b7-e22b703ebb59:740ebc29-dda7-4035-93cd-bb6f54de1985
+[I 2024-11-27 08:11:32.943 ServerApp] Connecting to kernel 631693ed-86c0-458e-b255-ee94ffa4fd00.
+[I 2024-11-27 08:11:32.944 ServerApp] Connecting to kernel 4da74c2c-f071-4f7c-9f08-af4b33f25e1f.
+[I 2024-11-27 08:11:32.944 ServerApp] Connecting to kernel e48e6373-4079-402a-bdb5-60680b3d9654.
+[I 2024-11-27 08:11:32.945 ServerApp] Connecting to kernel fe6e8fd3-5dac-4d0b-b75a-6b7f1b715e52.
+[I 2024-11-27 08:11:32.946 ServerApp] Connecting to kernel 5ed268a9-76d9-4f84-b2b7-e22b703ebb59.
+[W 2024-11-27 08:11:32.949 ServerApp] Replacing stale connection: 899bf578-e0bd-410d-85ca-fdf01b209da7:7b875b6d-67a2-49ac-bfdf-7772b0b3ab52
+[W 2024-11-27 08:11:32.950 ServerApp] Replacing stale connection: 9a848ef4-d289-4499-b1f3-bcc639e9fb44:d863182a-3442-4a4a-944d-09d9f94dfe42
+[W 2024-11-27 08:11:32.950 ServerApp] Replacing stale connection: e048d8d3-7e1b-47fb-8c79-84e86ad77766:b00f561f-6a0a-420c-a711-5874bdc33899
+[W 2024-11-27 08:11:32.952 ServerApp] 
+[W 2024-11-27 08:11:32.952 ServerApp] 
+[W 2024-11-27 08:11:32.952 ServerApp] 
+[W 2024-11-27 08:11:32.953 ServerApp] 
+[W 2024-11-27 08:11:32.953 ServerApp] 
+[I 2024-11-27 08:11:32.954 ServerApp] Connecting to kernel 899bf578-e0bd-410d-85ca-fdf01b209da7.
+[I 2024-11-27 08:11:32.955 ServerApp] Connecting to kernel 9a848ef4-d289-4499-b1f3-bcc639e9fb44.
+[I 2024-11-27 08:11:32.955 ServerApp] Connecting to kernel e048d8d3-7e1b-47fb-8c79-84e86ad77766.
+[W 2024-11-27 08:11:32.957 ServerApp] 
+[W 2024-11-27 08:11:32.957 ServerApp] 
+[W 2024-11-27 08:11:32.957 ServerApp] 
+[W 2024-11-27 08:11:32.958 ServerApp] 
+[W 2024-11-27 08:11:32.958 ServerApp] 
+[W 2024-11-27 08:11:32.959 ServerApp] 
+[W 2024-11-27 08:11:32.959 ServerApp] 
+[W 2024-11-27 08:11:32.959 ServerApp] 
+[W 2024-11-27 08:11:32.960 ServerApp] 
+[W 2024-11-27 08:11:32.960 ServerApp] 
+[W 2024-11-27 08:11:32.961 ServerApp] 
+[W 2024-11-27 08:11:32.962 ServerApp] 
+[W 2024-11-27 08:11:32.962 ServerApp] 
+[W 2024-11-27 08:11:32.963 ServerApp] 
+[W 2024-11-27 08:11:32.963 ServerApp] 
+[W 2024-11-27 08:11:32.965 ServerApp] Replacing stale connection: 966dbd1f-bd42-4529-91ec-4e76e9b18d06:dddf3771-c76f-41a0-b1d4-7286aa1ddc62
+[W 2024-11-27 08:11:32.965 ServerApp] 
+[W 2024-11-27 08:11:32.966 ServerApp] 
+[W 2024-11-27 08:11:32.966 ServerApp] 
+[W 2024-11-27 08:11:32.967 ServerApp] 
+[W 2024-11-27 08:11:32.968 ServerApp] 
+[W 2024-11-27 08:11:32.968 ServerApp] 
+[W 2024-11-27 08:11:32.968 ServerApp] 
+[W 2024-11-27 08:11:32.969 ServerApp] 
+[W 2024-11-27 08:11:32.969 ServerApp] 
+[W 2024-11-27 08:11:32.970 ServerApp] 
+[W 2024-11-27 08:11:32.970 ServerApp] 
+[I 2024-11-27 08:11:32.971 ServerApp] Connecting to kernel 966dbd1f-bd42-4529-91ec-4e76e9b18d06.
+[W 2024-11-27 08:11:32.972 ServerApp] 
+[W 2024-11-27 08:11:32.972 ServerApp] 
+[W 2024-11-27 08:11:32.973 ServerApp] 
+[W 2024-11-27 08:11:32.973 ServerApp] 
+[W 2024-11-27 08:11:32.973 ServerApp] 
+[W 2024-11-27 08:11:32.974 ServerApp] 
+[W 2024-11-27 08:11:32.975 ServerApp] 
+[W 2024-11-27 08:11:32.975 ServerApp] 
+[W 2024-11-27 08:11:32.976 ServerApp] 
+[W 2024-11-27 08:11:32.977 ServerApp] 
+[W 2024-11-27 08:11:32.977 ServerApp] 
+[W 2024-11-27 08:11:32.979 ServerApp] Replacing stale connection: 840ca30f-2512-4c4b-a401-0c1d47d47ea6:57684f5e-0114-43f6-98d5-bc6351c9b754
+[W 2024-11-27 08:11:32.979 ServerApp] 
+[W 2024-11-27 08:11:32.980 ServerApp] 
+[W 2024-11-27 08:11:32.981 ServerApp] 
+[W 2024-11-27 08:11:32.981 ServerApp] 
+[W 2024-11-27 08:11:32.982 ServerApp] 
+[I 2024-11-27 08:11:32.982 ServerApp] Connecting to kernel 840ca30f-2512-4c4b-a401-0c1d47d47ea6.
+[W 2024-11-27 08:11:32.983 ServerApp] 
+[W 2024-11-27 08:11:32.984 ServerApp] 
+[W 2024-11-27 08:11:32.984 ServerApp] 
+[W 2024-11-27 08:11:32.985 ServerApp] 
+[W 2024-11-27 08:11:32.985 ServerApp] 
+[W 2024-11-27 08:11:32.987 ServerApp] 
+[W 2024-11-27 08:11:32.987 ServerApp] 
+[W 2024-11-27 08:11:32.988 ServerApp] 
+[W 2024-11-27 08:11:32.988 ServerApp] 
+[W 2024-11-27 08:11:32.999 ServerApp] 
+[W 2024-11-27 08:11:32.999 ServerApp] 
+[W 2024-11-27 08:11:32.999 ServerApp] 
+[W 2024-11-27 08:11:33.000 ServerApp] 
+[I 2024-11-27 09:18:59.651 ServerApp] Saving file at /test.ipynb
+[I 2024-11-27 09:20:59.766 ServerApp] Saving file at /test.ipynb
+[W 2024-11-27 09:57:32.944 ServerApp] WebSocket ping timeout after 116634 ms.
+[W 2024-11-27 09:57:32.944 ServerApp] WebSocket ping timeout after 116635 ms.
+[W 2024-11-27 09:57:32.946 ServerApp] WebSocket ping timeout after 116636 ms.
+[W 2024-11-27 09:57:32.946 ServerApp] WebSocket ping timeout after 116636 ms.
+[W 2024-11-27 09:57:32.947 ServerApp] WebSocket ping timeout after 116703 ms.
+[W 2024-11-27 09:57:32.955 ServerApp] WebSocket ping timeout after 116645 ms.
+[W 2024-11-27 09:57:32.956 ServerApp] WebSocket ping timeout after 116646 ms.
+[W 2024-11-27 09:57:32.956 ServerApp] WebSocket ping timeout after 116646 ms.
+[W 2024-11-27 09:57:32.972 ServerApp] WebSocket ping timeout after 116663 ms.
+[W 2024-11-27 09:57:32.983 ServerApp] WebSocket ping timeout after 116673 ms.
+[I 2024-11-27 09:57:37.946 ServerApp] Starting buffering for 4da74c2c-f071-4f7c-9f08-af4b33f25e1f:81e5a456-cb5e-4036-9767-d0aa50b21c59
+[I 2024-11-27 09:57:37.948 ServerApp] Starting buffering for 5ed268a9-76d9-4f84-b2b7-e22b703ebb59:740ebc29-dda7-4035-93cd-bb6f54de1985
+[I 2024-11-27 09:57:37.984 ServerApp] Starting buffering for 840ca30f-2512-4c4b-a401-0c1d47d47ea6:57684f5e-0114-43f6-98d5-bc6351c9b754
+[I 2024-11-27 09:58:36.764 ServerApp] Connecting to kernel 4da74c2c-f071-4f7c-9f08-af4b33f25e1f.
+[I 2024-11-27 09:58:36.764 ServerApp] Restoring connection for 4da74c2c-f071-4f7c-9f08-af4b33f25e1f:81e5a456-cb5e-4036-9767-d0aa50b21c59
+[I 2024-11-27 09:58:36.807 ServerApp] Connecting to kernel 631693ed-86c0-458e-b255-ee94ffa4fd00.
+[I 2024-11-27 09:58:36.838 ServerApp] Connecting to kernel e048d8d3-7e1b-47fb-8c79-84e86ad77766.
+[I 2024-11-27 09:58:36.882 ServerApp] Connecting to kernel 840ca30f-2512-4c4b-a401-0c1d47d47ea6.
+[I 2024-11-27 09:58:36.882 ServerApp] Restoring connection for 840ca30f-2512-4c4b-a401-0c1d47d47ea6:57684f5e-0114-43f6-98d5-bc6351c9b754
+[I 2024-11-27 09:58:37.036 ServerApp] Connecting to kernel 5ed268a9-76d9-4f84-b2b7-e22b703ebb59.
+[I 2024-11-27 09:58:37.037 ServerApp] Restoring connection for 5ed268a9-76d9-4f84-b2b7-e22b703ebb59:740ebc29-dda7-4035-93cd-bb6f54de1985
+[I 2024-11-27 09:58:37.670 ServerApp] Connecting to kernel fe6e8fd3-5dac-4d0b-b75a-6b7f1b715e52.
+[I 2024-11-27 09:58:37.672 ServerApp] Connecting to kernel 966dbd1f-bd42-4529-91ec-4e76e9b18d06.
+[I 2024-11-27 09:58:37.674 ServerApp] Connecting to kernel e48e6373-4079-402a-bdb5-60680b3d9654.
+[I 2024-11-27 09:58:39.026 ServerApp] Connecting to kernel 899bf578-e0bd-410d-85ca-fdf01b209da7.
+[I 2024-11-27 09:58:39.866 ServerApp] Connecting to kernel 9a848ef4-d289-4499-b1f3-bcc639e9fb44.
+[W 2024-11-27 10:00:20.484 ServerApp] Replacing stale connection: 5ed268a9-76d9-4f84-b2b7-e22b703ebb59:740ebc29-dda7-4035-93cd-bb6f54de1985
+[I 2024-11-27 10:00:20.485 ServerApp] Connecting to kernel 5ed268a9-76d9-4f84-b2b7-e22b703ebb59.
+[W 2024-11-27 10:00:20.486 ServerApp] Replacing stale connection: 899bf578-e0bd-410d-85ca-fdf01b209da7:7b875b6d-67a2-49ac-bfdf-7772b0b3ab52
+[W 2024-11-27 10:00:20.487 ServerApp] Replacing stale connection: 840ca30f-2512-4c4b-a401-0c1d47d47ea6:57684f5e-0114-43f6-98d5-bc6351c9b754
+[W 2024-11-27 10:00:20.487 ServerApp] Replacing stale connection: e048d8d3-7e1b-47fb-8c79-84e86ad77766:b00f561f-6a0a-420c-a711-5874bdc33899
+[W 2024-11-27 10:00:20.488 ServerApp] Replacing stale connection: 631693ed-86c0-458e-b255-ee94ffa4fd00:ad02e9a1-1fd7-45d9-b328-29a95e66fbdd
+[I 2024-11-27 10:00:20.489 ServerApp] Connecting to kernel 899bf578-e0bd-410d-85ca-fdf01b209da7.
+[I 2024-11-27 10:00:20.490 ServerApp] Connecting to kernel 840ca30f-2512-4c4b-a401-0c1d47d47ea6.
+[I 2024-11-27 10:00:20.490 ServerApp] Connecting to kernel e048d8d3-7e1b-47fb-8c79-84e86ad77766.
+[I 2024-11-27 10:00:20.491 ServerApp] Connecting to kernel 631693ed-86c0-458e-b255-ee94ffa4fd00.
+[W 2024-11-27 10:00:20.492 ServerApp] Replacing stale connection: 9a848ef4-d289-4499-b1f3-bcc639e9fb44:d863182a-3442-4a4a-944d-09d9f94dfe42
+[W 2024-11-27 10:00:20.493 ServerApp] Replacing stale connection: fe6e8fd3-5dac-4d0b-b75a-6b7f1b715e52:8b962f41-8cb1-486c-9dd6-f1c62a1b86eb
+[I 2024-11-27 10:00:20.494 ServerApp] Connecting to kernel 9a848ef4-d289-4499-b1f3-bcc639e9fb44.
+[I 2024-11-27 10:00:20.496 ServerApp] Connecting to kernel fe6e8fd3-5dac-4d0b-b75a-6b7f1b715e52.
+[W 2024-11-27 10:00:20.498 ServerApp] Replacing stale connection: 966dbd1f-bd42-4529-91ec-4e76e9b18d06:dddf3771-c76f-41a0-b1d4-7286aa1ddc62
+[W 2024-11-27 10:00:20.498 ServerApp] 
+[W 2024-11-27 10:00:20.499 ServerApp] 
+[W 2024-11-27 10:00:20.500 ServerApp] 
+[W 2024-11-27 10:00:20.501 ServerApp] 
+[W 2024-11-27 10:00:20.501 ServerApp] 
+[W 2024-11-27 10:00:20.502 ServerApp] 
+[I 2024-11-27 10:00:20.502 ServerApp] Connecting to kernel 966dbd1f-bd42-4529-91ec-4e76e9b18d06.
+[W 2024-11-27 10:00:20.503 ServerApp] 
+[W 2024-11-27 10:00:20.504 ServerApp] 
+[W 2024-11-27 10:00:20.504 ServerApp] 
+[W 2024-11-27 10:00:20.504 ServerApp] 
+[W 2024-11-27 10:00:20.505 ServerApp] 
+[W 2024-11-27 10:00:20.506 ServerApp] 
+[W 2024-11-27 10:00:20.506 ServerApp] 
+[W 2024-11-27 10:00:20.507 ServerApp] 
+[W 2024-11-27 10:00:20.507 ServerApp] 
+[W 2024-11-27 10:00:20.507 ServerApp] 
+[W 2024-11-27 10:00:20.508 ServerApp] 
+[W 2024-11-27 10:00:20.508 ServerApp] 
+[W 2024-11-27 10:00:20.509 ServerApp] 
+[W 2024-11-27 10:00:20.509 ServerApp] 
+[W 2024-11-27 10:00:20.510 ServerApp] 
+[W 2024-11-27 10:00:20.510 ServerApp] 
+[W 2024-11-27 10:00:20.510 ServerApp] 
+[W 2024-11-27 10:00:20.511 ServerApp] 
+[W 2024-11-27 10:00:20.512 ServerApp] 
+[W 2024-11-27 10:00:20.512 ServerApp] 
+[W 2024-11-27 10:00:20.513 ServerApp] 
+[W 2024-11-27 10:00:20.514 ServerApp] 
+[W 2024-11-27 10:00:20.515 ServerApp] 
+[W 2024-11-27 10:00:20.515 ServerApp] Replacing stale connection: 4da74c2c-f071-4f7c-9f08-af4b33f25e1f:81e5a456-cb5e-4036-9767-d0aa50b21c59
+[W 2024-11-27 10:00:20.516 ServerApp] 
+[W 2024-11-27 10:00:20.518 ServerApp] 
+[W 2024-11-27 10:00:20.518 ServerApp] 
+[W 2024-11-27 10:00:20.518 ServerApp] 
+[W 2024-11-27 10:00:20.519 ServerApp] 
+[W 2024-11-27 10:00:20.519 ServerApp] 
+[W 2024-11-27 10:00:20.519 ServerApp] 
+[W 2024-11-27 10:00:20.520 ServerApp] 
+[I 2024-11-27 10:00:20.521 ServerApp] Connecting to kernel 4da74c2c-f071-4f7c-9f08-af4b33f25e1f.
+[W 2024-11-27 10:00:20.523 ServerApp] 
+[W 2024-11-27 10:00:20.523 ServerApp] 
+[W 2024-11-27 10:00:20.523 ServerApp] 
+[W 2024-11-27 10:00:20.524 ServerApp] 
+[W 2024-11-27 10:00:20.524 ServerApp] 
+[W 2024-11-27 10:00:20.524 ServerApp] 
+[W 2024-11-27 10:00:20.525 ServerApp] 
+[W 2024-11-27 10:00:20.526 ServerApp] Replacing stale connection: e48e6373-4079-402a-bdb5-60680b3d9654:abace5f3-2323-4b25-bade-50260f003a71
+[W 2024-11-27 10:00:20.527 ServerApp] 
+[W 2024-11-27 10:00:20.528 ServerApp] 
+[I 2024-11-27 10:00:20.528 ServerApp] Connecting to kernel e48e6373-4079-402a-bdb5-60680b3d9654.
+[W 2024-11-27 10:00:20.530 ServerApp] 
+[W 2024-11-27 10:00:20.530 ServerApp] 
+[W 2024-11-27 10:00:20.531 ServerApp] 
+[W 2024-11-27 10:00:20.531 ServerApp] 
+[W 2024-11-27 10:00:20.532 ServerApp] 
+[W 2024-11-27 10:00:20.532 ServerApp] 
+[W 2024-11-27 10:00:20.533 ServerApp] 
+[W 2024-11-27 10:00:20.533 ServerApp] 
+[W 2024-11-27 10:00:20.534 ServerApp] 
+[W 2024-11-27 10:00:20.535 ServerApp] 
+[W 2024-11-27 10:00:20.537 ServerApp] 
+[W 2024-11-27 10:00:20.537 ServerApp] 
+[W 2024-11-27 10:00:20.543 ServerApp] 
+[W 2024-11-27 10:00:20.544 ServerApp] 
+[I 2024-11-27 11:08:44.862 ServerApp] Starting buffering for 4da74c2c-f071-4f7c-9f08-af4b33f25e1f:81e5a456-cb5e-4036-9767-d0aa50b21c59
+[I 2024-11-27 11:08:44.862 ServerApp] Starting buffering for 5ed268a9-76d9-4f84-b2b7-e22b703ebb59:740ebc29-dda7-4035-93cd-bb6f54de1985
+[I 2024-11-27 11:08:44.863 ServerApp] Starting buffering for 840ca30f-2512-4c4b-a401-0c1d47d47ea6:57684f5e-0114-43f6-98d5-bc6351c9b754
+[I 2024-11-27 11:08:45.430 ServerApp] Connecting to kernel e48e6373-4079-402a-bdb5-60680b3d9654.
+[I 2024-11-27 11:08:45.432 ServerApp] Connecting to kernel fe6e8fd3-5dac-4d0b-b75a-6b7f1b715e52.
+[I 2024-11-27 11:08:45.435 ServerApp] Connecting to kernel 966dbd1f-bd42-4529-91ec-4e76e9b18d06.
+[I 2024-11-27 11:08:45.436 ServerApp] Connecting to kernel e048d8d3-7e1b-47fb-8c79-84e86ad77766.
+[I 2024-11-27 11:08:45.437 ServerApp] Connecting to kernel 4da74c2c-f071-4f7c-9f08-af4b33f25e1f.
+[I 2024-11-27 11:08:45.437 ServerApp] Restoring connection for 4da74c2c-f071-4f7c-9f08-af4b33f25e1f:81e5a456-cb5e-4036-9767-d0aa50b21c59
+[I 2024-11-27 11:08:45.438 ServerApp] Connecting to kernel 631693ed-86c0-458e-b255-ee94ffa4fd00.
+[I 2024-11-27 11:08:45.457 ServerApp] Connecting to kernel 9a848ef4-d289-4499-b1f3-bcc639e9fb44.
+[I 2024-11-27 11:08:45.459 ServerApp] Connecting to kernel 5ed268a9-76d9-4f84-b2b7-e22b703ebb59.
+[I 2024-11-27 11:08:45.459 ServerApp] Restoring connection for 5ed268a9-76d9-4f84-b2b7-e22b703ebb59:740ebc29-dda7-4035-93cd-bb6f54de1985
+[I 2024-11-27 11:08:45.460 ServerApp] Connecting to kernel 899bf578-e0bd-410d-85ca-fdf01b209da7.
+[I 2024-11-27 11:08:45.472 ServerApp] Connecting to kernel 840ca30f-2512-4c4b-a401-0c1d47d47ea6.
+[I 2024-11-27 11:08:45.472 ServerApp] Restoring connection for 840ca30f-2512-4c4b-a401-0c1d47d47ea6:57684f5e-0114-43f6-98d5-bc6351c9b754
+[I 2024-11-27 11:51:03.849 ServerApp] Saving file at /jupyter/logs5-test.ipynb
+[I 2024-11-27 11:51:27.520 ServerApp] Saving file at /jupyter/logs5-test.ipynb
+[I 2024-11-27 11:54:28.810 ServerApp] Saving file at /jupyter/logs7.ipynb
+[I 2024-11-27 11:54:45.930 ServerApp] Copying src/utils.py to /jupyter
+[I 2024-11-27 11:55:11.626 ServerApp] Copying src/rule.py to /jupyter
+[I 2024-11-27 11:56:29.829 ServerApp] Saving file at /jupyter/logs7.ipynb

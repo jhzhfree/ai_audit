@@ -26,8 +26,8 @@ class PredictModelUI:
             
             # 创建 ModelTrainer 实例并调用 predict 方法
             model_trainer = ModelTrainer()
-            anomalies_file, stats_summary = model_trainer.predict(uploaded_file, anomalies_map)
-            return anomalies_file, stats_summary
+            anomalies_file, stats_summary, plot_file_path = model_trainer.predict(uploaded_file, anomalies_map)
+            return anomalies_file, stats_summary, plot_file_path
         except json.JSONDecodeError:
             # 如果 JSON 解析失败
             return None, "异常映射信息格式不正确，请输入有效的 JSON 格式字典。"
@@ -59,6 +59,7 @@ class PredictModelUI:
             # 预测结果输出
             with gr.Row():
                 stats_output = gr.Textbox(label="预测结果统计信息", interactive=False)
+                plot_output = gr.Image(label="训练数据集图例")
             # 预测结果输出
             with gr.Row():
                 anomalies_output = gr.File(label="预测结果记录文件（CSV）")
@@ -67,7 +68,7 @@ class PredictModelUI:
             predict_button.click(
                 fn=self.handle_predict,
                 inputs=[uploaded_file, anomalies_map],
-                outputs=[anomalies_output, stats_output]
+                outputs=[anomalies_output, stats_output, plot_output]
             )
         
         return predict_ui
