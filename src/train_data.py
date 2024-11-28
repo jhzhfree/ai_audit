@@ -452,8 +452,23 @@ class ModelTrainer:
         logging.info(f"预测异常类型2:{unique_types2}")
         
         logging.info("异常类型映射完成。")
+
+        # 获取最早时间（最小时间）
+        earliest_time = df["登录时间"].min()
+
+        # 获取最晚时间（最大时间）
+        latest_time = df["登录时间"].max()
         
-        summary_predict = pre_df.head(10)
+        # 统计每种异常类型的数量和其他统计信息
+        summary_predict = pre_df.groupby('异常类型').agg(
+            total_count=('异常类型', 'size'),
+            mean_score=('异常类型编码', 'mean'),
+            std_score=('异常类型编码', 'std')
+        ).reset_index()
+        
+            # 转换为 JSON 格式
+        summary_predict_json = summary_predict.to_dict(orient='records')
+        summary_predict_json = json.dumps(summary_predict_json, ensure_ascii=False, indent=4)
         
         anomalies_file_path, anomalies, plot_file_path = self.visualize_anomalies(pre_df, "pre")
 
@@ -462,7 +477,7 @@ class ModelTrainer:
         pre_df.to_csv(output_file, index=False, encoding=self.config["data_file_encoding"])
         logging.info(f"预测结果已保存到 {output_file}")
 
-        return output_file, summary_predict, plot_file_path
+        return output_file, earliest_time, latest_time, summary_predict_json, plot_file_path
 
         
           

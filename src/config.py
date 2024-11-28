@@ -23,7 +23,7 @@ class Config:
         self.openai_model_name = llm_config.get('openai_model_name', 'gpt-4o-mini')
         self.openai_api_url = llm_config.get('openai_api_url', 'http://172.16.3.115:2024/v1')
         self.ollama_model_name = llm_config.get('ollama_model_name', 'llama3.2')
-        self.ollama_api_url = llm_config.get('ollama_api_url', 'http://172.16.3.199:11434/api/chat')
+        self.ollama_api_url = llm_config.get('ollama_api_url', 'http://172.16.3.115:21434')
 
         # 加载模型列表
         self.openai_models = llm_config.get('openai_models', ['gpt-3.5-turbo', 'gpt-4o-mini', 'gpt-4o'])

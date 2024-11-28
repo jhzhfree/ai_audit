@@ -1,6 +1,8 @@
 import gradio as gr
 import json
 from train_data import ModelTrainer
+from chat import ChatbotManager
+import asyncio
 
 class PredictModelUI:
     def __init__(self):
@@ -9,7 +11,7 @@ class PredictModelUI:
         """
         print("PredictModelUI initialized.")
 
-    def handle_predict(self, uploaded_file, anomalies_map_str):
+    async def  handle_predict(self, uploaded_file, anomalies_map_str):
         """
         点击按钮后的处理逻辑
         :param uploaded_file: 上传的测试数据文件
@@ -26,8 +28,17 @@ class PredictModelUI:
             
             # 创建 ModelTrainer 实例并调用 predict 方法
             model_trainer = ModelTrainer()
-            anomalies_file, stats_summary, plot_file_path = model_trainer.predict(uploaded_file, anomalies_map)
-            return anomalies_file, stats_summary, plot_file_path
+            anomalies_file,  earliest_time, latest_time, stats_summary, plot_file_path = model_trainer.predict(uploaded_file, anomalies_map)
+            
+            print(f"earliest_time {earliest_time}")
+            print(f"latest_time {latest_time}")
+            
+            chatmanager = ChatbotManager()
+            report_output =  chatmanager.create_report(earliest_time, latest_time, stats_summary)
+            
+            print(f"reportout {report_output}")
+            
+            return anomalies_file, report_output, plot_file_path
         except json.JSONDecodeError:
             # 如果 JSON 解析失败
             return None, "异常映射信息格式不正确，请输入有效的 JSON 格式字典。"
@@ -54,21 +65,22 @@ class PredictModelUI:
             
             # 按钮
             with gr.Row():
-                predict_button = gr.Button("开始预测")
+                predict_button = gr.Button("开始预测并生成报告")
             
             # 预测结果输出
             with gr.Row():
-                stats_output = gr.Textbox(label="预测结果统计信息", interactive=False)
                 plot_output = gr.Image(label="训练数据集图例")
             # 预测结果输出
             with gr.Row():
+                report_output = gr.Textbox(label="检测报告")
+            # 预测结果输出
+            with gr.Row():
                 anomalies_output = gr.File(label="预测结果记录文件（CSV）")
-            
             # 绑定按钮事件
             predict_button.click(
                 fn=self.handle_predict,
                 inputs=[uploaded_file, anomalies_map],
-                outputs=[anomalies_output, stats_output, plot_output]
+                outputs=[anomalies_output, report_output, plot_output]
             )
         
         return predict_ui

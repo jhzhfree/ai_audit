@@ -54,13 +54,13 @@ def create_openai_llm(config):
 
 def create_ollama_llm(config):
     """创建 Ollama 的 LLM 实例"""
-    logger.debug("创建 Ollama LLM 实例...")
+    logger.info("创建 Ollama LLM 实例...")
     
     # 确认配置项
-    logger.debug(f"Ollama 模型名称: {config.ollama_model_name}")
-    logger.debug(f"Ollama API 基础 URL: {config.ollama_api_url}")
-    logger.debug(f"Ollama 温度: {config.get('ollama_temperature', 0.7)}")
-    logger.debug(f"Ollama 最大 Token 数量: {config.get('ollama_max_tokens', 1500)}")
+    logger.info(f"Ollama 模型名称: {config.ollama_model_name}")
+    logger.info(f"Ollama API 基础 URL: {config.ollama_api_url}")
+    logger.info(f"Ollama 温度: {config.get('ollama_temperature', 0.7)}")
+    logger.info(f"Ollama 最大 Token 数量: {config.get('ollama_max_tokens', 1500)}")
     
     return ChatOllama(
         model=config.ollama_model_name,
@@ -131,10 +131,10 @@ def create_logs_llm_chain(config):
         raise ValueError(f"未知的模型类型: {config.llm_model_type}")
     
     # 打印提示词模板
-    logger.debug("创建提示词模板...")
+    logger.info("创建提示词模板...")
     prompt_template = PromptTemplate(
-        input_variables=["ticket_content", "executed_commands"],
-        template="""
+        input_variables=["start_date", "end_date", "stats"],
+        template="""\
 # 异常行为分析报告生成
 
 ## 角色（Role）
@@ -217,6 +217,6 @@ def create_logs_llm_chain(config):
 """
     )
 
-    logger.debug("返回创建的 LLMChain 实例...")
+    logger.info("返回创建的 LLMChain logs 实例...")
     # 返回创建的 LLMChain 实例
     return LLMChain(llm=llm, prompt=prompt_template)

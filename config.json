@@ -1,17 +1,17 @@
 {
     "llm": {
-        "model_type": "openai",
+        "model_type": "ollama",
         "openai_model_name": "gpt-4o-mini",
         "openai_api_url": "http://172.16.3.115:2024/v1",
-        "ollama_model_name": "llama3.2",
-        "ollama_api_url": "http://172.16.3.199:11434",
+        "ollama_model_name": "qwen2.5",
+        "ollama_api_url": "http://172.16.3.115:21434",
         "openai_models": [
             "gpt-3.5-turbo",
             "gpt-4o-mini",
             "gpt-4o"
         ],
         "ollama_models": [
-            "gemma2:2b",
+            "qwen2.5",
             "llama3.2",
             "llama3.1"
         ]
