@@ -66,18 +66,18 @@ class TrainModelUI:
             }
         """) as train_ui:
             # 标题部分
-            gr.Markdown("# 模型训练界面\n分步骤完成数据收集、规则配置、训练数据集查看和模型生成。")
+            gr.Markdown("# 模型训练界面\n 数据收集 --> 数据清洗 -- > 特征工程 --> 模型训练 --> 模型优化 --> 模型生成 ")
 
             # **训练基础模块**
             with gr.Group():
-                gr.Markdown("## 训练基础\n上传数据文件和配置规则")
+                gr.Markdown("## 数据收集、数据清洗 \n上传数据文件与规则应用")
                 with gr.Row():
                     uploaded_file = gr.File(label="上传数据集文件（CSV 格式）", file_types=[".csv"])
                     rules_input = gr.Json(label="规则配置（JSON 格式）", value=json_rule)
 
             # **训练数据集模块**
             with gr.Group():
-                gr.Markdown("## 训练数据集\n查看训练数据并下载结果文件")
+                gr.Markdown("## 特征工程\n 产生合适的训练数据集")
                 with gr.Row():
                     dataset_preview = gr.Textbox(label="数据集内容预览", interactive=False, lines=10)
                     plot_output = gr.Image(label="训练数据集图例")
